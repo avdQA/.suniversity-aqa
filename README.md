@@ -1,8 +1,9 @@
-# Selecto UNIVERSITY
+# [Selecto](https://selectoglobal.com/) UNIVERSITY :school:  
 I want to be a cool Automation QA Engineer
-
-#### Reviewers  
-> ~ (Lead QA Team) @Artem Dmytruk   
-> ~ (Reviewer) @Andrii Vorochuk  
-#### Participants
+  
+### Reviewers :mega:  
+> ~ (Lead QA Team) [@Artem Dmytruk](https://github.com/ArtemDmytruk)  
+> ~ (Reviewer) [@Andrii Vorochuk](https://github.com/avdQA)  
+  
+### Participants :technologist:  
 > ~ (githubNic) @Full name
