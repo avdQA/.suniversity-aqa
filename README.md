@@ -7,3 +7,4 @@ I want to be a cool Automation QA Engineer
   
 ### Participants :technologist:  
 > ~ (Andrii) @Andrii Vorochuk
+> ~ (Max) @Max Okhten
