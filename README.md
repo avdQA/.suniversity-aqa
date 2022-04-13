@@ -7,3 +7,5 @@ I want to be a cool Automation QA Engineer
   
 ### Participants :technologist:  
 > ~ Some test string
+> ~ One more test string
+
