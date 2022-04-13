@@ -7,3 +7,6 @@ I want to be a cool Automation QA Engineer
   
 ### Participants :technologist:  
 > ~ (artemvt) [@Artem Vepryk](https://github.com/artemv-vt)  
+> ~ Some test string
+> ~ One more test string
+
