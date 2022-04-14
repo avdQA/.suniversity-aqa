@@ -6,5 +6,5 @@ I want to be a cool Automation QA Engineer
 > ~ (Reviewer) [@Andrii Vorochuk](https://github.com/avdQA)  
   
 ### Participants :technologist:  
-> ~ (Max) @Max Okhten  
+> ~ (MaxOkhten) [@Max Okhten](https://github.com/MaxOkhten)  
 
