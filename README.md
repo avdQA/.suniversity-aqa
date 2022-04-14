@@ -8,6 +8,4 @@ I want to be a cool Automation QA Engineer
 ### Participants :technologist:  
 > ~ (artem-vt) [@Artem Vepryk](https://github.com/artem-vt)  
 > ~ (selectoman) [@Maneliuk Dmytro](https://github.com/selectoman)  
-> ~ (Max) @Max Okhten  
-> ~ Some test string
-> ~ One more test string  
+> ~ (MaxOkhten) [@Max Okhten](https://github.com/MaxOkhten)  
