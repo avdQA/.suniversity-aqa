@@ -6,6 +6,8 @@ I want to be a cool Automation QA Engineer
 > ~ (Reviewer) [@Andrii Vorochuk](https://github.com/avdQA)  
   
 ### Participants :technologist:  
-<<<<<<< HEAD
 > ~ (artem-vt) [@Artem Vepryk](https://github.com/artem-vt)  
-
+> ~ (selectoman) [@Maneliuk Dmytro](https://github.com/selectoman)  
+> ~ (Max) @Max Okhten  
+> ~ Some test string
+> ~ One more test string  
