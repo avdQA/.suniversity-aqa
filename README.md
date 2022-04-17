@@ -9,4 +9,4 @@ I want to be a cool Automation QA Engineer
 > ~ (artem-vt) [@Artem Vepryk](https://github.com/artem-vt)  
 > ~ (selectoman) [@Maneliuk Dmytro](https://github.com/selectoman)  
 > ~ (MaxOkhten) [@Max Okhten](https://github.com/MaxOkhten)  
-> ~ (OleksandrChekusov) [@OleksandrChekusov](https://github.com/OleksandrChekusov) 
+> ~ (OleksandrChekusov) [@OleksandrChekusov](https://github.com/OleksandrChekusov)  
