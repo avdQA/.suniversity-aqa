@@ -11,5 +11,5 @@ I want to be a cool Automation QA Engineer
 > ~ (MaxOkhten) [@Max Okhten](https://github.com/MaxOkhten)  
 > ~ (OleksandrChekusov) [@OleksandrChekusov](https://github.com/OleksandrChekusov)  
 > ~ (Anastasiia1616) [@Anastasiia1616](https://github.com/Anastasiia1616)  
- ~ (vtarasovych) [@vtarasovych](https://github.com/vtarasovych)  
+> ~ (vtarasovych) [@vtarasovych](https://github.com/vtarasovych)  
 > ~ (xkessonx) [@Pavlo Kokhno](https://github.com/xkessonx)  
