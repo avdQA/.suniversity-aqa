@@ -1,0 +1,21 @@
+{
+  "server": "nginx/1.18.0",
+  "date": "Mon, 23 May 2022 13:10:08 GMT",
+  "content-type": "application/json",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "vary": "Accept-Encoding, Accept-Encoding",
+  "cache-control": "private, must-revalidate",
+  "allow": "DELETE",
+  "pragma": "no-cache",
+  "expires": "-1",
+  "link": "<http://api.dev.ghostdrive.com/api/docs.jsonld>; rel=\"http://www.w3.org/ns/hydra/core#apiDocumentation\"",
+  "x-debug-token": "8088f5",
+  "x-debug-token-link": "http://api.dev.ghostdrive.com/_profiler/8088f5",
+  "x-robots-tag": "noindex",
+  "set-cookie": [
+    "sf_redirect=deleted; expires=Sun, 23-May-2021 13:10:07 GMT; Max-Age=0; path=/; httponly"
+  ],
+  "strict-transport-security": "max-age=31536000",
+  "content-encoding": "gzip"
+}

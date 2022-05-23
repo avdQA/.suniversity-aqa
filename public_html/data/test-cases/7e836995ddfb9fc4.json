@@ -1,0 +1,102 @@
+{
+  "uid" : "7e836995ddfb9fc4",
+  "name" : "(C17) User wants to creates workspace with \"IPFS\" storage",
+  "fullName" : "(C17) User wants to creates workspace with \"IPFS\" storage",
+  "historyId" : "8b91f9e45145e98f10b0299c4b3bb4da",
+  "time" : {
+    "start" : 1653310820394,
+    "stop" : 1653310820397,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653310820418,
+        "stop" : 1653310820420,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653310820420,
+        "stop" : 1653310820421,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[Astro] [IPFS] [Workspaces] Create workspace"
+  }, {
+    "name" : "feature",
+    "value" : "[Astro] [IPFS] [Workspaces] Create workspace"
+  }, {
+    "name" : "tag",
+    "value" : "ignore"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "workspace"
+  }, {
+    "name" : "tag",
+    "value" : "IPFS"
+  }, {
+    "name" : "tag",
+    "value" : "ignore"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "workspace", "regression", "IPFS", "ignore" ]
+  },
+  "source" : "7e836995ddfb9fc4.json",
+  "parameterValues" : [ ]
+}

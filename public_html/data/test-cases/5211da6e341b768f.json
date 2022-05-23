@@ -1,0 +1,1372 @@
+{
+  "uid" : "5211da6e341b768f",
+  "name" : "C81 Delete file from \"DELETED\" using the Topbar",
+  "fullName" : "C81 Delete file from \"DELETED\" using the Topbar",
+  "historyId" : "9b3e278e6899066fd05d39043bea432c",
+  "time" : {
+    "start" : 1653311079074,
+    "stop" : 1653311090959,
+    "duration" : 11885
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1653311079074,
+        "stop" : 1653311079122,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log [ActivePage set null] >_ is done.",
+        "time" : {
+          "start" : 1653311079121,
+          "stop" : 1653311079122,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1653311079122,
+        "stop" : 1653311079124,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given User should be on the Home web page",
+      "time" : {
+        "start" : 1653311079129,
+        "stop" : 1653311080048,
+        "duration" : 919
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1653311079130,
+          "stop" : 1653311080044,
+          "duration" : 914
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And User should be on the Main web page and signed as owner",
+      "time" : {
+        "start" : 1653311080048,
+        "stop" : 1653311083192,
+        "duration" : 3144
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "setCustomToken",
+        "time" : {
+          "start" : 1653311080049,
+          "stop" : 1653311080050,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "setTokenToLocalStorage (\"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTI4OTQyMTIsImV4cCI6MTY4NDQzMDIxMiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIndvcmtzcGFjZV9pZCI6OTUzLCJ1c2VybmFtZSI6Inh4eCIsInVzZXJfc2Vzc2lvbl91dWlkIjoiZGRjYjA5NzAtYWIzMi00NjEwLTgyMTktNTIxMjA3OGUwYjlkIn0.gZMQokte9UD7RpDtZ8c441WeSgip939IHKdkCG7MBzlEsSeqVHJjiBWhcRqSFUYwP5atrnFufKGOCb8ltRs4D9rhVufickVVPTobCt23g4E9HkKBU0YtvfbnLYjNgX7joQtmz9nvq-ZCc3h0A5WaU6BvMSgWAaoX6ZY8LCL36QhZbZXWxfG3n45qdrCHTQw1chFUxqo5WRMBt2a6RGlq1UajjvMZHcGnN9kqB7lmEpYc8lVl0Nm7a5lPayODpuFSFN_HedzaxConz-CAh2SUz_JGFsfzWhtAxzilLuORUfQsF8M4eGeurWmhxFuD1zILVib0NW0rD1biq1fc6Zwf3mCAO8j-EnZTgJ1FhHGOlBVQGXftr9OE6xnaetplt6q9wKYCeyqCxz7b1YjF6be0Ru83PQGTdtWqbArIINRoIdl__fNC9wWpF8IvDJQoG9MHaRD_eeWtOaBKi5Sml0-vjcxYmqXxtkK09gXov2BjGLQ9vHAUR6pIKUjrIUXE6gV70DJNBVKUO6MPRc-qUi72FHcr7Ll2Jvk6BgYNuMA5Ee_R3mJ7SJyA9cLrWyEOc0z3ZShU82wK83zdA2up9yrgFIJ7eTeHK_bPMzy86FKVkY6H5HS34QeywLlnGrgAB0QwgXIH-RWx_OrP46h-eSSwZcsuFi5OSiPgx4-RpmJS9lk\")",
+          "time" : {
+            "start" : 1653311080049,
+            "stop" : 1653311080050,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "intercept (\"/api/me\")",
+        "time" : {
+          "start" : 1653311080050,
+          "stop" : 1653311080196,
+          "duration" : 146
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"me\")",
+        "time" : {
+          "start" : 1653311080196,
+          "stop" : 1653311080196,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"/api/user/workspaces\")",
+        "time" : {
+          "start" : 1653311080196,
+          "stop" : 1653311080211,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"workspaces\")",
+        "time" : {
+          "start" : 1653311080211,
+          "stop" : 1653311080211,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit /main",
+        "time" : {
+          "start" : 1653311080211,
+          "stop" : 1653311080572,
+          "duration" : 361
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/me",
+        "time" : {
+          "start" : 1653311080572,
+          "stop" : 1653311080572,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait @workspaces",
+        "time" : {
+          "start" : 1653311080572,
+          "stop" : 1653311083189,
+          "duration" : 2617
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/notifications?read=0&page=1",
+        "time" : {
+          "start" : 1653311083188,
+          "stop" : 1653311083188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/tags.json",
+        "time" : {
+          "start" : 1653311083188,
+          "stop" : 1653311083188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/colors",
+        "time" : {
+          "start" : 1653311083188,
+          "stop" : 1653311083188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/user/workspaces",
+        "time" : {
+          "start" : 1653311083188,
+          "stop" : 1653311083188,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/notifications?read=1&page=1",
+        "time" : {
+          "start" : 1653311083189,
+          "stop" : 1653311083189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files?page=1",
+        "time" : {
+          "start" : 1653311083189,
+          "stop" : 1653311083189,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given any deleted file",
+      "time" : {
+        "start" : 1653311083192,
+        "stop" : 1653311087130,
+        "duration" : 3938
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div[class^='style_topContainer__']",
+        "time" : {
+          "start" : 1653311083193,
+          "stop" : 1653311083230,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-sidebar_main-nav-togglable_list_item[0]']",
+        "time" : {
+          "start" : 1653311083230,
+          "stop" : 1653311083248,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311083248,
+          "stop" : 1653311083592,
+          "duration" : 344
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uploadFileToIPFS (\"small\"; \"svg\")",
+        "time" : {
+          "start" : 1653311083592,
+          "stop" : 1653311086249,
+          "duration" : 2657
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "log [fakeFileName] >_ representative.svg",
+          "time" : {
+            "start" : 1653311083593,
+            "stop" : 1653311083596,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "intercept (\"POST\"; \"/api/files/ipfs\")",
+          "time" : {
+            "start" : 1653311083596,
+            "stop" : 1653311083623,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "as (\"uploadFileToIPFS\")",
+          "time" : {
+            "start" : 1653311083623,
+            "stop" : 1653311083623,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get [data-test='drive_container'] input[type='file']",
+          "time" : {
+            "start" : 1653311083623,
+            "stop" : 1653311083637,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "attachFile (\"{ filePath: '/uploads-file/small.svg',\n  fileName: 'representative.svg' }\")",
+          "time" : {
+            "start" : 1653311083637,
+            "stop" : 1653311083658,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "fixture (\"/uploads-file/small.svg\"; \"utf8\")",
+            "time" : {
+              "start" : 1653311083638,
+              "stop" : 1653311083641,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "attachFile representative.svg",
+            "time" : {
+              "start" : 1653311083658,
+              "stop" : 1653311083658,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "wait @uploadFileToIPFS",
+          "time" : {
+            "start" : 1653311083658,
+            "stop" : 1653311086249,
+            "duration" : 2591
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "POST 200 https://ipfs.infura.io:5001/api/v0/add?stream-channels=true&progress=false",
+          "time" : {
+            "start" : 1653311086249,
+            "stop" : 1653311086249,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "POST https://api.dev.ghostdrive.com/api/files/ipfs",
+          "time" : {
+            "start" : 1653311086249,
+            "stop" : 1653311086249,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "uncaught exception TypeError: Cannot read properties of undefined (reading 'constructor')",
+          "time" : {
+            "start" : 1653311086249,
+            "stop" : 1653311086249,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 11,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "log _> FILE: [representative.svg] ~ created is Successful",
+        "time" : {
+          "start" : 1653311086249,
+          "stop" : 1653311086251,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "deleteItem (\"a6070ddd-1425-4743-90a2-ebb7ec30c1f6\")",
+        "time" : {
+          "start" : 1653311086251,
+          "stop" : 1653311087128,
+          "duration" : 877
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "DELETE 200 https://api.dev.ghostdrive.com/api/files/a6070ddd-1425-4743-90a2-ebb7ec30c1f6",
+          "time" : {
+            "start" : 1653311086252,
+            "stop" : 1653311087121,
+            "duration" : 869
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f90d46b679608ed",
+            "name" : "requestHeaders",
+            "source" : "f90d46b679608ed.json",
+            "type" : "application/json",
+            "size" : 1665
+          }, {
+            "uid" : "e000d37f72d414b1",
+            "name" : "responseHeaders",
+            "source" : "e000d37f72d414b1.json",
+            "type" : "application/json",
+            "size" : 781
+          }, {
+            "uid" : "ae5d69233cbf0b70",
+            "name" : "response",
+            "source" : "ae5d69233cbf0b70.json",
+            "type" : "application/json",
+            "size" : 26
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "as (\"deleteItem\")",
+          "time" : {
+            "start" : 1653311087121,
+            "stop" : 1653311087122,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "log _> Delete ITEM by SLUG:a6070ddd-1425-4743-90a2-ebb7ec30c1f6 ~ is Successful",
+          "time" : {
+            "start" : 1653311087122,
+            "stop" : 1653311087126,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get @deleteItem",
+          "time" : {
+            "start" : 1653311087126,
+            "stop" : 1653311087128,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 21,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user must be in the \"DELETED\" section",
+      "time" : {
+        "start" : 1653311087130,
+        "stop" : 1653311087592,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div[class^='style_topContainer__']",
+        "time" : {
+          "start" : 1653311087133,
+          "stop" : 1653311087158,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-sidebar_main-nav-togglable_list_item[7]']",
+        "time" : {
+          "start" : 1653311087158,
+          "stop" : 1653311087190,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311087190,
+          "stop" : 1653311087587,
+          "duration" : 397
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://dev.ghostdrive.com/deleted",
+        "time" : {
+          "start" : 1653311087587,
+          "stop" : 1653311087587,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/trash",
+        "time" : {
+          "start" : 1653311087587,
+          "stop" : 1653311087587,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log [ActivePage] >_ DELETED ~ is SET",
+        "time" : {
+          "start" : 1653311087587,
+          "stop" : 1653311087590,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When user selects this \"file\" and deletes it permanently using Topbar",
+      "time" : {
+        "start" : 1653311087592,
+        "stop" : 1653311090875,
+        "duration" : 3283
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div.main-container section",
+        "time" : {
+          "start" : 1653311087594,
+          "stop" : 1653311087611,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains representative.svg",
+        "time" : {
+          "start" : 1653311087611,
+          "stop" : 1653311088435,
+          "duration" : 824
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "parents section[data-test*='a6070ddd-1425-4743-90a2-ebb7ec30c1f6']",
+        "time" : {
+          "start" : 1653311088435,
+          "stop" : 1653311088459,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get <section.file.file_row.file_row-preview.animated.fadeIn>",
+        "time" : {
+          "start" : 1653311088460,
+          "stop" : 1653311088490,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='checkbox']",
+        "time" : {
+          "start" : 1653311088491,
+          "stop" : 1653311088513,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "parent",
+        "time" : {
+          "start" : 1653311088513,
+          "stop" : 1653311088539,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "trigger mouseover",
+        "time" : {
+          "start" : 1653311088539,
+          "stop" : 1653311088759,
+          "duration" : 220
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find input",
+        "time" : {
+          "start" : 1653311088759,
+          "stop" : 1653311088797,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check {force: true}",
+        "time" : {
+          "start" : 1653311088797,
+          "stop" : 1653311089064,
+          "duration" : 267
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get <section.file.file_row.file_row-preview.animated.fadeIn.active>",
+        "time" : {
+          "start" : 1653311089064,
+          "stop" : 1653311089116,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<section.file.file_row.file_row-preview.animated.fadeIn.active>** to have class **active**",
+        "time" : {
+          "start" : 1653311089116,
+          "stop" : 1653311089116,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get [data-test='main-header_action_buttons']",
+        "time" : {
+          "start" : 1653311089117,
+          "stop" : 1653311089157,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-header_delete_button']",
+        "time" : {
+          "start" : 1653311089157,
+          "stop" : 1653311089204,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311089204,
+          "stop" : 1653311089539,
+          "duration" : 335
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"PUT\"; \"/api/trash/multiply\")",
+        "time" : {
+          "start" : 1653311089539,
+          "stop" : 1653311089592,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"confirmForm\")",
+        "time" : {
+          "start" : 1653311089592,
+          "stop" : 1653311089592,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get section.modal.modal__contented",
+        "time" : {
+          "start" : 1653311089592,
+          "stop" : 1653311089626,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find button.accept",
+        "time" : {
+          "start" : 1653311089626,
+          "stop" : 1653311089678,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311089678,
+          "stop" : 1653311090001,
+          "duration" : 323
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "PUT https://api.dev.ghostdrive.com/api/trash/multiply",
+        "time" : {
+          "start" : 1653311090001,
+          "stop" : 1653311090001,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait @confirmForm",
+        "time" : {
+          "start" : 1653311090001,
+          "stop" : 1653311090867,
+          "duration" : 866
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 21,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then this \"file\" has been permanently deleted",
+      "time" : {
+        "start" : 1653311090875,
+        "stop" : 1653311090896,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get @confirmForm",
+        "time" : {
+          "start" : 1653311090876,
+          "stop" : 1653311090878,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "its .response.statusCode",
+        "time" : {
+          "start" : 1653311090878,
+          "stop" : 1653311090885,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **200** to deeply equal **200**",
+        "time" : {
+          "start" : 1653311090885,
+          "stop" : 1653311090885,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "200"
+        }, {
+          "name" : "expected",
+          "value" : "200"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get @confirmForm",
+        "time" : {
+          "start" : 1653311090885,
+          "stop" : 1653311090888,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "its .response.body",
+        "time" : {
+          "start" : 1653311090888,
+          "stop" : 1653311090894,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **{ message: success }** to have property **message** of **success**",
+        "time" : {
+          "start" : 1653311090894,
+          "stop" : 1653311090894,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "success"
+        }, {
+          "name" : "expected",
+          "value" : "success"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And this \"file\" does not displayed in the Deleted section",
+      "time" : {
+        "start" : 1653311090896,
+        "stop" : 1653311090958,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div.main-container section",
+        "time" : {
+          "start" : 1653311090897,
+          "stop" : 1653311090954,
+          "duration" : 57
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <section.home__page>, 2 more... ]** not to contain **representative.svg**",
+        "time" : {
+          "start" : 1653311090954,
+          "stop" : 1653311090954,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And clear PageData",
+      "time" : {
+        "start" : 1653311090958,
+        "stop" : 1653311090959,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653311091065,
+        "stop" : 1653311091068,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653311091068,
+        "stop" : 1653311091069,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 85,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[Files] IO operation with files in IPFS storage"
+  }, {
+    "name" : "feature",
+    "value" : "[Files] IO operation with files in IPFS storage"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "files"
+  }, {
+    "name" : "tag",
+    "value" : "IPFS"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "files"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "IPFS", "files" ]
+  },
+  "source" : "5211da6e341b768f.json",
+  "parameterValues" : [ ]
+}

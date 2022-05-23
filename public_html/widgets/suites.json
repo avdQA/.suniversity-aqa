@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "bd76e7f7fd8ac291f214d724362c1c23",
+    "name" : "[Astro] [IPFS] [Folders] CRUD operation with folders in IPFS storage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 28,
+      "unknown" : 0,
+      "total" : 29
+    }
+  }, {
+    "uid" : "4c4aaea85103bb9759116fc171cf93f1",
+    "name" : "[Files] IO operation with files in IPFS storage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 24
+    }
+  }, {
+    "uid" : "0fcbad869d9176065d51601b2b67316a",
+    "name" : "[Notes] CRUD operation with secret notes",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "cb750244360886d41503d996442cc368",
+    "name" : "[Smoke] [LoginPage] Check the GhostDrive homepage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "c1fb3caef6fb624915ddf8835dd8d14e",
+    "name" : "[Astro] [IPFS] [Workspaces] Switch to another workspace",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b2b8cd3fe1c9f4378a2a1cbff694ece6",
+    "name" : "[Astro] [IPFS] [Workspaces] Create workspace",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

@@ -1,0 +1,1987 @@
+{
+  "uid" : "7b3225f310a0bd2b",
+  "name" : "C93 Check the analytics of the folder with 1 downloads and 1 file using the context menu",
+  "fullName" : "C93 Check the analytics of the folder with 1 downloads and 1 file using the context menu",
+  "historyId" : "43a1c74aeef464e416c81cc91cf9a433",
+  "time" : {
+    "start" : 1653311679336,
+    "stop" : 1653311703114,
+    "duration" : 23778
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1653311679337,
+        "stop" : 1653311679396,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log [ActivePage set null] >_ is done.",
+        "time" : {
+          "start" : 1653311679395,
+          "stop" : 1653311679395,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1653311679397,
+        "stop" : 1653311679397,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given User should be on the Home web page",
+      "time" : {
+        "start" : 1653311679403,
+        "stop" : 1653311680397,
+        "duration" : 994
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1653311679414,
+          "stop" : 1653311680395,
+          "duration" : 981
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And User should be on the Main web page and signed as owner",
+      "time" : {
+        "start" : 1653311680397,
+        "stop" : 1653311683528,
+        "duration" : 3131
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "setCustomToken",
+        "time" : {
+          "start" : 1653311680398,
+          "stop" : 1653311680411,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "setTokenToLocalStorage (\"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTI4OTQyMTIsImV4cCI6MTY4NDQzMDIxMiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIndvcmtzcGFjZV9pZCI6OTUzLCJ1c2VybmFtZSI6Inh4eCIsInVzZXJfc2Vzc2lvbl91dWlkIjoiZGRjYjA5NzAtYWIzMi00NjEwLTgyMTktNTIxMjA3OGUwYjlkIn0.gZMQokte9UD7RpDtZ8c441WeSgip939IHKdkCG7MBzlEsSeqVHJjiBWhcRqSFUYwP5atrnFufKGOCb8ltRs4D9rhVufickVVPTobCt23g4E9HkKBU0YtvfbnLYjNgX7joQtmz9nvq-ZCc3h0A5WaU6BvMSgWAaoX6ZY8LCL36QhZbZXWxfG3n45qdrCHTQw1chFUxqo5WRMBt2a6RGlq1UajjvMZHcGnN9kqB7lmEpYc8lVl0Nm7a5lPayODpuFSFN_HedzaxConz-CAh2SUz_JGFsfzWhtAxzilLuORUfQsF8M4eGeurWmhxFuD1zILVib0NW0rD1biq1fc6Zwf3mCAO8j-EnZTgJ1FhHGOlBVQGXftr9OE6xnaetplt6q9wKYCeyqCxz7b1YjF6be0Ru83PQGTdtWqbArIINRoIdl__fNC9wWpF8IvDJQoG9MHaRD_eeWtOaBKi5Sml0-vjcxYmqXxtkK09gXov2BjGLQ9vHAUR6pIKUjrIUXE6gV70DJNBVKUO6MPRc-qUi72FHcr7Ll2Jvk6BgYNuMA5Ee_R3mJ7SJyA9cLrWyEOc0z3ZShU82wK83zdA2up9yrgFIJ7eTeHK_bPMzy86FKVkY6H5HS34QeywLlnGrgAB0QwgXIH-RWx_OrP46h-eSSwZcsuFi5OSiPgx4-RpmJS9lk\")",
+          "time" : {
+            "start" : 1653311680411,
+            "stop" : 1653311680411,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "intercept (\"/api/me\")",
+        "time" : {
+          "start" : 1653311680411,
+          "stop" : 1653311680473,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"me\")",
+        "time" : {
+          "start" : 1653311680473,
+          "stop" : 1653311680473,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"/api/user/workspaces\")",
+        "time" : {
+          "start" : 1653311680473,
+          "stop" : 1653311680478,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"workspaces\")",
+        "time" : {
+          "start" : 1653311680478,
+          "stop" : 1653311680478,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit /main",
+        "time" : {
+          "start" : 1653311680478,
+          "stop" : 1653311680939,
+          "duration" : 461
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/me",
+        "time" : {
+          "start" : 1653311680939,
+          "stop" : 1653311680939,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait @workspaces",
+        "time" : {
+          "start" : 1653311680939,
+          "stop" : 1653311683523,
+          "duration" : 2584
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/notifications?read=0&page=1",
+        "time" : {
+          "start" : 1653311683523,
+          "stop" : 1653311683523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/tags.json",
+        "time" : {
+          "start" : 1653311683523,
+          "stop" : 1653311683523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/colors",
+        "time" : {
+          "start" : 1653311683523,
+          "stop" : 1653311683523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/user/workspaces",
+        "time" : {
+          "start" : 1653311683523,
+          "stop" : 1653311683523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/notifications?read=1&page=1",
+        "time" : {
+          "start" : 1653311683523,
+          "stop" : 1653311683523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files?page=1",
+        "time" : {
+          "start" : 1653311683523,
+          "stop" : 1653311683523,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given user must be in the \"Drive\" section",
+      "time" : {
+        "start" : 1653311683528,
+        "stop" : 1653311684093,
+        "duration" : 565
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div[class^='style_topContainer__']",
+        "time" : {
+          "start" : 1653311683529,
+          "stop" : 1653311683544,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-sidebar_main-nav-togglable_list_item[0]']",
+        "time" : {
+          "start" : 1653311683544,
+          "stop" : 1653311683570,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311683570,
+          "stop" : 1653311684087,
+          "duration" : 517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log [ActivePage] >_ Drive ~ is SET",
+        "time" : {
+          "start" : 1653311684087,
+          "stop" : 1653311684089,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And the main folder with any exist files",
+      "time" : {
+        "start" : 1653311684093,
+        "stop" : 1653311694532,
+        "duration" : 10439
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createFolderIPFS",
+        "time" : {
+          "start" : 1653311684094,
+          "stop" : 1653311689223,
+          "duration" : 5129
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST 201 https://api.dev.ghostdrive.com/api/folders/folder",
+          "time" : {
+            "start" : 1653311684095,
+            "stop" : 1653311685333,
+            "duration" : 1238
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "c718beff4e6c2a30",
+            "name" : "requestHeaders",
+            "source" : "c718beff4e6c2a30.json",
+            "type" : "application/json",
+            "size" : 1248
+          }, {
+            "uid" : "a0111082ef404c10",
+            "name" : "request",
+            "source" : "a0111082ef404c10.json",
+            "type" : "application/json",
+            "size" : 47
+          }, {
+            "uid" : "48cfa15701d44681",
+            "name" : "responseHeaders",
+            "source" : "48cfa15701d44681.json",
+            "type" : "application/json",
+            "size" : 1087
+          }, {
+            "uid" : "d0570e87619eeb77",
+            "name" : "response",
+            "source" : "d0570e87619eeb77.json",
+            "type" : "application/json",
+            "size" : 1342
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "as (\"createFolderIPFS\")",
+          "time" : {
+            "start" : 1653311685333,
+            "stop" : 1653311685334,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "reload",
+          "time" : {
+            "start" : 1653311685334,
+            "stop" : 1653311686120,
+            "duration" : 786
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://api.dev.ghostdrive.com/api/me",
+          "time" : {
+            "start" : 1653311686120,
+            "stop" : 1653311686120,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "wait @workspaces",
+          "time" : {
+            "start" : 1653311686120,
+            "stop" : 1653311689221,
+            "duration" : 3101
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://api.dev.ghostdrive.com/api/notifications?read=0&page=1",
+          "time" : {
+            "start" : 1653311689221,
+            "stop" : 1653311689221,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://api.dev.ghostdrive.com/api/tags.json",
+          "time" : {
+            "start" : 1653311689221,
+            "stop" : 1653311689221,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://api.dev.ghostdrive.com/api/colors",
+          "time" : {
+            "start" : 1653311689221,
+            "stop" : 1653311689221,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://api.dev.ghostdrive.com/api/user/workspaces",
+          "time" : {
+            "start" : 1653311689221,
+            "stop" : 1653311689221,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://api.dev.ghostdrive.com/api/notifications?read=1&page=1",
+          "time" : {
+            "start" : 1653311689221,
+            "stop" : 1653311689221,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://api.dev.ghostdrive.com/api/files?page=1",
+          "time" : {
+            "start" : 1653311689221,
+            "stop" : 1653311689221,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get @createFolderIPFS",
+          "time" : {
+            "start" : 1653311689222,
+            "stop" : 1653311689223,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "log _> FOLDER: [cyA.National Branding Assistant] ~ created is Successful",
+        "time" : {
+          "start" : 1653311689230,
+          "stop" : 1653311689233,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert [Check response status code is 201]: expected **201** to equal **201**",
+        "time" : {
+          "start" : 1653311689233,
+          "stop" : 1653311689233,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "201"
+        }, {
+          "name" : "expected",
+          "value" : "201"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get [data-test*='d5d2048d-5f7b-460f-b793-822a11b41cc5']",
+        "time" : {
+          "start" : 1653311689234,
+          "stop" : 1653311690022,
+          "duration" : 788
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "dblclick",
+        "time" : {
+          "start" : 1653311690022,
+          "stop" : 1653311691131,
+          "duration" : 1109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://dev.ghostdrive.com/folder/d5d2048d-5f7b-460f-b793-822a11b41cc5",
+        "time" : {
+          "start" : 1653311691130,
+          "stop" : 1653311691130,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files/d5d2048d-5f7b-460f-b793-822a11b41cc5?page=1",
+        "time" : {
+          "start" : 1653311691130,
+          "stop" : 1653311691130,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files/file/d5d2048d-5f7b-460f-b793-822a11b41cc5",
+        "time" : {
+          "start" : 1653311691131,
+          "stop" : 1653311691131,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uploadFileToIPFS (\"small\"; \"svg\")",
+        "time" : {
+          "start" : 1653311691131,
+          "stop" : 1653311693952,
+          "duration" : 2821
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "log [fakeFileName] >_ user_facing_generic_payment.svg",
+          "time" : {
+            "start" : 1653311691134,
+            "stop" : 1653311691136,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "intercept (\"POST\"; \"/api/files/ipfs\")",
+          "time" : {
+            "start" : 1653311691136,
+            "stop" : 1653311691309,
+            "duration" : 173
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "as (\"uploadFileToIPFS\")",
+          "time" : {
+            "start" : 1653311691309,
+            "stop" : 1653311691362,
+            "duration" : 53
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get [data-test='drive_container'] input[type='file']",
+          "time" : {
+            "start" : 1653311691362,
+            "stop" : 1653311691445,
+            "duration" : 83
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "attachFile (\"{ filePath: '/uploads-file/small.svg',\n  fileName: 'user_facing_generic_payment.svg' }\")",
+          "time" : {
+            "start" : 1653311691445,
+            "stop" : 1653311691552,
+            "duration" : 107
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "fixture (\"/uploads-file/small.svg\"; \"utf8\")",
+            "time" : {
+              "start" : 1653311691477,
+              "stop" : 1653311691527,
+              "duration" : 50
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "attachFile user_facing_generic_payment.svg",
+            "time" : {
+              "start" : 1653311691552,
+              "stop" : 1653311691552,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "wait @uploadFileToIPFS",
+          "time" : {
+            "start" : 1653311691552,
+            "stop" : 1653311693952,
+            "duration" : 2400
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "POST https://ipfs.infura.io:5001/api/v0/add?stream-channels=true&progress=false",
+          "time" : {
+            "start" : 1653311693952,
+            "stop" : 1653311693952,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "POST 201 https://api.dev.ghostdrive.com/api/files/ipfs",
+          "time" : {
+            "start" : 1653311693952,
+            "stop" : 1653311693952,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "uncaught exception TypeError: Cannot read properties of undefined (reading 'constructor')",
+          "time" : {
+            "start" : 1653311693952,
+            "stop" : 1653311693952,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 11,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get div[class^='style_topContainer__']",
+        "time" : {
+          "start" : 1653311693952,
+          "stop" : 1653311693985,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-sidebar_main-nav-togglable_list_item[0]']",
+        "time" : {
+          "start" : 1653311693985,
+          "stop" : 1653311694025,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311694025,
+          "stop" : 1653311694530,
+          "duration" : 505
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://dev.ghostdrive.com/main",
+        "time" : {
+          "start" : 1653311694529,
+          "stop" : 1653311694529,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files?page=1",
+        "time" : {
+          "start" : 1653311694530,
+          "stop" : 1653311694530,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 37,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user selects this item and downloads it using Topbar",
+      "time" : {
+        "start" : 1653311694532,
+        "stop" : 1653311699956,
+        "duration" : 5424
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div.main-container",
+        "time" : {
+          "start" : 1653311694534,
+          "stop" : 1653311694739,
+          "duration" : 205
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains cyA.National Branding Assistant",
+        "time" : {
+          "start" : 1653311694739,
+          "stop" : 1653311695582,
+          "duration" : 843
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "parents section[data-test*='d5d2048d-5f7b-460f-b793-822a11b41cc5']",
+        "time" : {
+          "start" : 1653311695582,
+          "stop" : 1653311695666,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get <section.folder.animated.fadeIn.user-popup-position-container>",
+        "time" : {
+          "start" : 1653311695667,
+          "stop" : 1653311695718,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='checkbox']",
+        "time" : {
+          "start" : 1653311695718,
+          "stop" : 1653311695734,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "parent",
+        "time" : {
+          "start" : 1653311695734,
+          "stop" : 1653311695751,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "trigger mouseover",
+        "time" : {
+          "start" : 1653311695751,
+          "stop" : 1653311695931,
+          "duration" : 180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find input",
+        "time" : {
+          "start" : 1653311695931,
+          "stop" : 1653311695951,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check {force: true}",
+        "time" : {
+          "start" : 1653311695951,
+          "stop" : 1653311696135,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get <section.folder.animated.fadeIn.folder_selected.user-popup-position-container>",
+        "time" : {
+          "start" : 1653311696135,
+          "stop" : 1653311696169,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<section.folder.animated.fadeIn.folder_selected.user-popup-position-container>** to have class **folder_selected**",
+        "time" : {
+          "start" : 1653311696169,
+          "stop" : 1653311696169,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"*.ipfs.infura-ipfs.io\")",
+        "time" : {
+          "start" : 1653311696169,
+          "stop" : 1653311696237,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"downloadItem\")",
+        "time" : {
+          "start" : 1653311696237,
+          "stop" : 1653311696237,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"/api/files/mix/download?**\")",
+        "time" : {
+          "start" : 1653311696237,
+          "stop" : 1653311696279,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"downloadItem\")",
+        "time" : {
+          "start" : 1653311696279,
+          "stop" : 1653311696279,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get [data-test='main-header_action_buttons']",
+        "time" : {
+          "start" : 1653311696279,
+          "stop" : 1653311696304,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-header_action-page_download_button']",
+        "time" : {
+          "start" : 1653311696304,
+          "stop" : 1653311696338,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311696338,
+          "stop" : 1653311696723,
+          "duration" : 385
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files/mix/download?files[]=d5d2048d-5f7b-460f-b793-822a11b41cc5",
+        "time" : {
+          "start" : 1653311696723,
+          "stop" : 1653311696723,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait @downloadItem",
+        "time" : {
+          "start" : 1653311696723,
+          "stop" : 1653311699487,
+          "duration" : 2764
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get [data-test='main-header_action_buttons']",
+        "time" : {
+          "start" : 1653311699487,
+          "stop" : 1653311699522,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-header_action-page_download_button']",
+        "time" : {
+          "start" : 1653311699522,
+          "stop" : 1653311699547,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311699547,
+          "stop" : 1653311699954,
+          "duration" : 407
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncaught exception TypeError: Cannot read properties of undefined (reading 'type')",
+        "time" : {
+          "start" : 1653311699954,
+          "stop" : 1653311699954,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 24,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When user clicks \"Analytics\" in the context menu of the target \"Folder\"",
+      "time" : {
+        "start" : 1653311699956,
+        "stop" : 1653311702034,
+        "duration" : 2078
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div.main-container",
+        "time" : {
+          "start" : 1653311699957,
+          "stop" : 1653311699980,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test*='d5d2048d-5f7b-460f-b793-822a11b41cc5']",
+        "time" : {
+          "start" : 1653311699980,
+          "stop" : 1653311700013,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "scrollIntoView",
+        "time" : {
+          "start" : 1653311700013,
+          "stop" : 1653311700302,
+          "duration" : 289
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "rightclick",
+        "time" : {
+          "start" : 1653311700302,
+          "stop" : 1653311700914,
+          "duration" : 612
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "download /Users/sudo/.s-projects/GhostDriveWebUIAutoTests/cypress/downloads/download-20220523T13_14_56584Z.zip",
+        "time" : {
+          "start" : 1653311700914,
+          "stop" : 1653311700914,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get section.context-menu",
+        "time" : {
+          "start" : 1653311700914,
+          "stop" : 1653311700936,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='context-menu_item_analytics']",
+        "time" : {
+          "start" : 1653311700936,
+          "stop" : 1653311700978,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311700978,
+          "stop" : 1653311702032,
+          "duration" : 1054
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/statistic/d5d2048d-5f7b-460f-b793-822a11b41cc5",
+        "time" : {
+          "start" : 1653311702032,
+          "stop" : 1653311702032,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then user should see the \"folder\" name in the modal form \"Analytics folder\"",
+      "time" : {
+        "start" : 1653311702034,
+        "stop" : 1653311702803,
+        "duration" : 769
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get section.modal.modal-analytics",
+        "time" : {
+          "start" : 1653311702035,
+          "stop" : 1653311702756,
+          "duration" : 721
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains cyA.National Branding Assistant",
+        "time" : {
+          "start" : 1653311702756,
+          "stop" : 1653311702800,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<span>** to be **visible**",
+        "time" : {
+          "start" : 1653311702800,
+          "stop" : 1653311702800,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user should see the 1 number of downloads to the item in the modal form \"Analytics folder\"",
+      "time" : {
+        "start" : 1653311702803,
+        "stop" : 1653311702880,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get section.modal.modal-analytics",
+        "time" : {
+          "start" : 1653311702805,
+          "stop" : 1653311702837,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find .analytics__modal__info > :nth-child(2) > :nth-child(3)",
+        "time" : {
+          "start" : 1653311702837,
+          "stop" : 1653311702869,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "invoke .text()",
+        "time" : {
+          "start" : 1653311702870,
+          "stop" : 1653311702878,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **'1'** to equal **'1'**",
+        "time" : {
+          "start" : 1653311702877,
+          "stop" : 1653311702877,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "1"
+        }, {
+          "name" : "expected",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user should see the 1 number of files containing the folder in the modal form \"Analytics folder\"",
+      "time" : {
+        "start" : 1653311702880,
+        "stop" : 1653311702947,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get section.modal.modal-analytics",
+        "time" : {
+          "start" : 1653311702881,
+          "stop" : 1653311702912,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find div.analytics__modal__content__file div.analytics__modal__content__file__text span:first-child",
+        "time" : {
+          "start" : 1653311702912,
+          "stop" : 1653311702939,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "invoke .text()",
+        "time" : {
+          "start" : 1653311702939,
+          "stop" : 1653311702945,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **'1'** to equal **'1'**",
+        "time" : {
+          "start" : 1653311702945,
+          "stop" : 1653311702945,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "1"
+        }, {
+          "name" : "expected",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And clear downloads folder",
+      "time" : {
+        "start" : 1653311702947,
+        "stop" : 1653311703114,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "deleteDownloadsFolder",
+        "time" : {
+          "start" : 1653311702949,
+          "stop" : 1653311703111,
+          "duration" : 162
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "task deleteFolder, /Users/sudo/.s-projects/GhostDriveWebUIAutoTests/cypress/downloads",
+          "time" : {
+            "start" : 1653311702949,
+            "stop" : 1653311703111,
+            "duration" : 162
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653311703182,
+        "stop" : 1653311704940,
+        "duration" : 1758
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "deleteItemFinally (\"d5d2048d-5f7b-460f-b793-822a11b41cc5\"; \"undefined\"; \"undefined\"; \"undefined\")",
+        "time" : {
+          "start" : 1653311703188,
+          "stop" : 1653311704940,
+          "duration" : 1752
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "DELETE 200 https://api.dev.ghostdrive.com/api/files/multiply/delete",
+          "time" : {
+            "start" : 1653311703189,
+            "stop" : 1653311704085,
+            "duration" : 896
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ae1aa1947384cfe9",
+            "name" : "requestHeaders",
+            "source" : "ae1aa1947384cfe9.json",
+            "type" : "application/json",
+            "size" : 1248
+          }, {
+            "uid" : "98be14d1610296c9",
+            "name" : "request",
+            "source" : "98be14d1610296c9.json",
+            "type" : "application/json",
+            "size" : 44
+          }, {
+            "uid" : "216fb190548a1a0",
+            "name" : "responseHeaders",
+            "source" : "216fb190548a1a0.json",
+            "type" : "application/json",
+            "size" : 664
+          }, {
+            "uid" : "ed0db9267b1627ff",
+            "name" : "response",
+            "source" : "ed0db9267b1627ff.json",
+            "type" : "application/json",
+            "size" : 26
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "deleteItemPermanently (\"[ 'd5d2048d-5f7b-460f-b793-822a11b41cc5' ]\")",
+          "time" : {
+            "start" : 1653311704086,
+            "stop" : 1653311704940,
+            "duration" : 854
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "PUT 200 https://api.dev.ghostdrive.com/api/trash/multiply",
+            "time" : {
+              "start" : 1653311704086,
+              "stop" : 1653311704940,
+              "duration" : 854
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "92b2082810f8438e",
+              "name" : "requestHeaders",
+              "source" : "92b2082810f8438e.json",
+              "type" : "application/json",
+              "size" : 1248
+            }, {
+              "uid" : "e091c4f50a81802e",
+              "name" : "request",
+              "source" : "e091c4f50a81802e.json",
+              "type" : "application/json",
+              "size" : 54
+            }, {
+              "uid" : "114ec5d575b6f247",
+              "name" : "responseHeaders",
+              "source" : "114ec5d575b6f247.json",
+              "type" : "application/json",
+              "size" : 661
+            }, {
+              "uid" : "e2072ef2a7a97440",
+              "name" : "response",
+              "source" : "e2072ef2a7a97440.json",
+              "type" : "application/json",
+              "size" : 26
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 8,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 8,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653311704940,
+        "stop" : 1653311704942,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 122,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[Astro] [IPFS] [Folders] CRUD operation with folders in IPFS storage"
+  }, {
+    "name" : "feature",
+    "value" : "[Astro] [IPFS] [Folders] CRUD operation with folders in IPFS storage"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "folders"
+  }, {
+    "name" : "tag",
+    "value" : "IPFS"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "folders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "folders", "regression", "IPFS" ]
+  },
+  "source" : "7b3225f310a0bd2b.json",
+  "parameterValues" : [ ]
+}

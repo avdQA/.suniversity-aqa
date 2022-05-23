@@ -1,0 +1,1498 @@
+{
+  "uid" : "595a10c5139404bc",
+  "name" : "C50 Create children folder using the Topbar menu",
+  "fullName" : "C50 Create children folder using the Topbar menu",
+  "historyId" : "0d23b1705f409a49bf2219e2b03841f1",
+  "time" : {
+    "start" : 1653311324802,
+    "stop" : 1653311342030,
+    "duration" : 17228
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1653311324803,
+        "stop" : 1653311324848,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log [ActivePage set null] >_ is done.",
+        "time" : {
+          "start" : 1653311324847,
+          "stop" : 1653311324848,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1653311324849,
+        "stop" : 1653311324850,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given User should be on the Home web page",
+      "time" : {
+        "start" : 1653311324858,
+        "stop" : 1653311325976,
+        "duration" : 1118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1653311324858,
+          "stop" : 1653311325974,
+          "duration" : 1116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And User should be on the Main web page and signed as owner",
+      "time" : {
+        "start" : 1653311325976,
+        "stop" : 1653311329447,
+        "duration" : 3471
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "setCustomToken",
+        "time" : {
+          "start" : 1653311325977,
+          "stop" : 1653311325978,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "setTokenToLocalStorage (\"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTI4OTQyMTIsImV4cCI6MTY4NDQzMDIxMiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sIndvcmtzcGFjZV9pZCI6OTUzLCJ1c2VybmFtZSI6Inh4eCIsInVzZXJfc2Vzc2lvbl91dWlkIjoiZGRjYjA5NzAtYWIzMi00NjEwLTgyMTktNTIxMjA3OGUwYjlkIn0.gZMQokte9UD7RpDtZ8c441WeSgip939IHKdkCG7MBzlEsSeqVHJjiBWhcRqSFUYwP5atrnFufKGOCb8ltRs4D9rhVufickVVPTobCt23g4E9HkKBU0YtvfbnLYjNgX7joQtmz9nvq-ZCc3h0A5WaU6BvMSgWAaoX6ZY8LCL36QhZbZXWxfG3n45qdrCHTQw1chFUxqo5WRMBt2a6RGlq1UajjvMZHcGnN9kqB7lmEpYc8lVl0Nm7a5lPayODpuFSFN_HedzaxConz-CAh2SUz_JGFsfzWhtAxzilLuORUfQsF8M4eGeurWmhxFuD1zILVib0NW0rD1biq1fc6Zwf3mCAO8j-EnZTgJ1FhHGOlBVQGXftr9OE6xnaetplt6q9wKYCeyqCxz7b1YjF6be0Ru83PQGTdtWqbArIINRoIdl__fNC9wWpF8IvDJQoG9MHaRD_eeWtOaBKi5Sml0-vjcxYmqXxtkK09gXov2BjGLQ9vHAUR6pIKUjrIUXE6gV70DJNBVKUO6MPRc-qUi72FHcr7Ll2Jvk6BgYNuMA5Ee_R3mJ7SJyA9cLrWyEOc0z3ZShU82wK83zdA2up9yrgFIJ7eTeHK_bPMzy86FKVkY6H5HS34QeywLlnGrgAB0QwgXIH-RWx_OrP46h-eSSwZcsuFi5OSiPgx4-RpmJS9lk\")",
+          "time" : {
+            "start" : 1653311325977,
+            "stop" : 1653311325977,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "intercept (\"/api/me\")",
+        "time" : {
+          "start" : 1653311325978,
+          "stop" : 1653311326102,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"me\")",
+        "time" : {
+          "start" : 1653311326102,
+          "stop" : 1653311326103,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"/api/user/workspaces\")",
+        "time" : {
+          "start" : 1653311326103,
+          "stop" : 1653311326141,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"workspaces\")",
+        "time" : {
+          "start" : 1653311326141,
+          "stop" : 1653311326141,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit /main",
+        "time" : {
+          "start" : 1653311326141,
+          "stop" : 1653311326762,
+          "duration" : 621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/me",
+        "time" : {
+          "start" : 1653311326761,
+          "stop" : 1653311326761,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait @workspaces",
+        "time" : {
+          "start" : 1653311326762,
+          "stop" : 1653311329440,
+          "duration" : 2678
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/notifications?read=0&page=1",
+        "time" : {
+          "start" : 1653311329433,
+          "stop" : 1653311329433,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/tags.json",
+        "time" : {
+          "start" : 1653311329433,
+          "stop" : 1653311329433,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/colors",
+        "time" : {
+          "start" : 1653311329433,
+          "stop" : 1653311329433,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/user/workspaces",
+        "time" : {
+          "start" : 1653311329440,
+          "stop" : 1653311329440,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/notifications?read=1&page=1",
+        "time" : {
+          "start" : 1653311329440,
+          "stop" : 1653311329440,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files?page=1",
+        "time" : {
+          "start" : 1653311329440,
+          "stop" : 1653311329440,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given user must be in the \"Drive\" section",
+      "time" : {
+        "start" : 1653311329445,
+        "stop" : 1653311330027,
+        "duration" : 582
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div[class^='style_topContainer__']",
+        "time" : {
+          "start" : 1653311329448,
+          "stop" : 1653311329489,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-sidebar_main-nav-togglable_list_item[0]']",
+        "time" : {
+          "start" : 1653311329489,
+          "stop" : 1653311329549,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311329549,
+          "stop" : 1653311330022,
+          "duration" : 473
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log [ActivePage] >_ Drive ~ is SET",
+        "time" : {
+          "start" : 1653311330022,
+          "stop" : 1653311330024,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user must be inside an existing folder",
+      "time" : {
+        "start" : 1653311330027,
+        "stop" : 1653311335849,
+        "duration" : 5822
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "createFolderIPFS",
+        "time" : {
+          "start" : 1653311330028,
+          "stop" : 1653311334507,
+          "duration" : 4479
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST 201 https://api.dev.ghostdrive.com/api/folders/folder",
+          "time" : {
+            "start" : 1653311330038,
+            "stop" : 1653311331244,
+            "duration" : 1206
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "f6c8c9a9c2625b0c",
+            "name" : "requestHeaders",
+            "source" : "f6c8c9a9c2625b0c.json",
+            "type" : "application/json",
+            "size" : 1248
+          }, {
+            "uid" : "696ba131dda27ac2",
+            "name" : "request",
+            "source" : "696ba131dda27ac2.json",
+            "type" : "application/json",
+            "size" : 45
+          }, {
+            "uid" : "63ea41bf034e9b43",
+            "name" : "responseHeaders",
+            "source" : "63ea41bf034e9b43.json",
+            "type" : "application/json",
+            "size" : 1087
+          }, {
+            "uid" : "15d1af1dd3e6a064",
+            "name" : "response",
+            "source" : "15d1af1dd3e6a064.json",
+            "type" : "application/json",
+            "size" : 1340
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "as (\"createFolderIPFS\")",
+          "time" : {
+            "start" : 1653311331244,
+            "stop" : 1653311331245,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "reload",
+          "time" : {
+            "start" : 1653311331246,
+            "stop" : 1653311331750,
+            "duration" : 504
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://api.dev.ghostdrive.com/api/me",
+          "time" : {
+            "start" : 1653311331749,
+            "stop" : 1653311331749,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "wait @workspaces",
+          "time" : {
+            "start" : 1653311331750,
+            "stop" : 1653311334504,
+            "duration" : 2754
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://api.dev.ghostdrive.com/api/notifications?read=0&page=1",
+          "time" : {
+            "start" : 1653311334503,
+            "stop" : 1653311334503,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://api.dev.ghostdrive.com/api/tags.json",
+          "time" : {
+            "start" : 1653311334504,
+            "stop" : 1653311334504,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET 200 https://api.dev.ghostdrive.com/api/colors",
+          "time" : {
+            "start" : 1653311334504,
+            "stop" : 1653311334504,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://api.dev.ghostdrive.com/api/user/workspaces",
+          "time" : {
+            "start" : 1653311334504,
+            "stop" : 1653311334504,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://api.dev.ghostdrive.com/api/notifications?read=1&page=1",
+          "time" : {
+            "start" : 1653311334504,
+            "stop" : 1653311334504,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://api.dev.ghostdrive.com/api/files?page=1",
+          "time" : {
+            "start" : 1653311334504,
+            "stop" : 1653311334504,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get @createFolderIPFS",
+          "time" : {
+            "start" : 1653311334505,
+            "stop" : 1653311334507,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "log _> FOLDER: [cyA.District Intranet Analyst] ~ created is Successful",
+        "time" : {
+          "start" : 1653311334508,
+          "stop" : 1653311334513,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get [data-test*='5298d06d-1a84-4679-9c03-f60e854be159']",
+        "time" : {
+          "start" : 1653311334514,
+          "stop" : 1653311335271,
+          "duration" : 757
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "dblclick",
+        "time" : {
+          "start" : 1653311335271,
+          "stop" : 1653311335842,
+          "duration" : 571
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://dev.ghostdrive.com/folder/5298d06d-1a84-4679-9c03-f60e854be159",
+        "time" : {
+          "start" : 1653311335841,
+          "stop" : 1653311335841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files/5298d06d-1a84-4679-9c03-f60e854be159?page=1",
+        "time" : {
+          "start" : 1653311335841,
+          "stop" : 1653311335841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.dev.ghostdrive.com/api/files/file/5298d06d-1a84-4679-9c03-f60e854be159",
+        "time" : {
+          "start" : 1653311335842,
+          "stop" : 1653311335842,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 19,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When user presses the [\"Plus\"] button in the top panel menu",
+      "time" : {
+        "start" : 1653311335847,
+        "stop" : 1653311336502,
+        "duration" : 655
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get [data-test='main-header_action_buttons']",
+        "time" : {
+          "start" : 1653311335850,
+          "stop" : 1653311335886,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test='main-header_action-page_add_button']",
+        "time" : {
+          "start" : 1653311335886,
+          "stop" : 1653311335915,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311335915,
+          "stop" : 1653311336475,
+          "duration" : 560
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user click on \"Create folder\" item in \"Plus button\" submenu of topbar menu",
+      "time" : {
+        "start" : 1653311336502,
+        "stop" : 1653311337460,
+        "duration" : 958
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get [data-test='header-add-new_create-folder_button']",
+        "time" : {
+          "start" : 1653311336545,
+          "stop" : 1653311336646,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311336646,
+          "stop" : 1653311337457,
+          "duration" : 811
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user type any valid name to the \"Folder name\" field in \"Create folder\" modal view",
+      "time" : {
+        "start" : 1653311337460,
+        "stop" : 1653311338961,
+        "duration" : 1501
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get [data-test=create-entity-modal_input_field]",
+        "time" : {
+          "start" : 1653311337460,
+          "stop" : 1653311337488,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type cyA.International Tactics Supervisor",
+        "time" : {
+          "start" : 1653311337488,
+          "stop" : 1653311338941,
+          "duration" : 1453
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "invoke .val()",
+        "time" : {
+          "start" : 1653311338941,
+          "stop" : 1653311338955,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **cyA.International Tactics Supervisor** to equal **cyA.International Tactics Supervisor**",
+        "time" : {
+          "start" : 1653311338955,
+          "stop" : 1653311338955,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "cyA.International Tactics Supervisor"
+        }, {
+          "name" : "expected",
+          "value" : "cyA.International Tactics Supervisor"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user click on [\"CREATE\"] button in modal form \"Create folder\"",
+      "time" : {
+        "start" : 1653311338961,
+        "stop" : 1653311340779,
+        "duration" : 1818
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "intercept (\"POST\"; \"/api/folders/folder\")",
+        "time" : {
+          "start" : 1653311338962,
+          "stop" : 1653311339021,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"createFolder\")",
+        "time" : {
+          "start" : 1653311339021,
+          "stop" : 1653311339021,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get section.modal.modal__contented",
+        "time" : {
+          "start" : 1653311339021,
+          "stop" : 1653311339056,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find [data-test=create-entity-modal_accept_button]",
+        "time" : {
+          "start" : 1653311339056,
+          "stop" : 1653311339104,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1653311339105,
+          "stop" : 1653311339615,
+          "duration" : 510
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://api.dev.ghostdrive.com/api/folders/folder",
+        "time" : {
+          "start" : 1653311339615,
+          "stop" : 1653311339615,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wait @createFolder",
+        "time" : {
+          "start" : 1653311339615,
+          "stop" : 1653311340776,
+          "duration" : 1161
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then Folder is created",
+      "time" : {
+        "start" : 1653311340779,
+        "stop" : 1653311340809,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get @createFolder",
+        "time" : {
+          "start" : 1653311340780,
+          "stop" : 1653311340783,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "its .response",
+        "time" : {
+          "start" : 1653311340783,
+          "stop" : 1653311340795,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert [check Folder Name]: expected **cyA.International Tactics Supervisor** to include **cyA.International Tactics Supervisor**",
+        "time" : {
+          "start" : 1653311340802,
+          "stop" : 1653311340802,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "cyA.International Tactics Supervisor"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert [check Response STATUS code]: expected **201** to equal **201**",
+        "time" : {
+          "start" : 1653311340802,
+          "stop" : 1653311340802,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "201"
+        }, {
+          "name" : "expected",
+          "value" : "201"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And the children folder is displayed on Drive tab",
+      "time" : {
+        "start" : 1653311340809,
+        "stop" : 1653311342030,
+        "duration" : 1221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get div.main-container",
+        "time" : {
+          "start" : 1653311340810,
+          "stop" : 1653311340841,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains cyA.International Tactics Supervisor",
+        "time" : {
+          "start" : 1653311340841,
+          "stop" : 1653311340887,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<div.tooltip.folder-tooltip>** to exist in the DOM",
+        "time" : {
+          "start" : 1653311340887,
+          "stop" : 1653311340887,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<div.tooltip.folder-tooltip>"
+        }, {
+          "name" : "expected",
+          "value" : "<div.tooltip.folder-tooltip>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get @createFolder",
+        "time" : {
+          "start" : 1653311340887,
+          "stop" : 1653311340893,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "its .request.body",
+        "time" : {
+          "start" : 1653311340894,
+          "stop" : 1653311340915,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **{ Object (name, parent) }** to have property **parent** of **5298d06d-1a84-4679-9c03-f60e854be159**",
+        "time" : {
+          "start" : 1653311340915,
+          "stop" : 1653311340915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "5298d06d-1a84-4679-9c03-f60e854be159"
+        }, {
+          "name" : "expected",
+          "value" : "5298d06d-1a84-4679-9c03-f60e854be159"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET 200 https://api.dev.ghostdrive.com/api/files/5298d06d-1a84-4679-9c03-f60e854be159",
+        "time" : {
+          "start" : 1653311340918,
+          "stop" : 1653311342022,
+          "duration" : 1104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "49c17fa1335b440e",
+          "name" : "requestHeaders",
+          "source" : "49c17fa1335b440e.json",
+          "type" : "application/json",
+          "size" : 1641
+        }, {
+          "uid" : "b581ccc316d95bed",
+          "name" : "responseHeaders",
+          "source" : "b581ccc316d95bed.json",
+          "type" : "application/json",
+          "size" : 783
+        }, {
+          "uid" : "91b9c28c61d2a951",
+          "name" : "response",
+          "source" : "91b9c28c61d2a951.json",
+          "type" : "application/json",
+          "size" : 1465
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert [check response property :: name]: expected **{ Object (id, type, ...) }** to have property **name** of **cyA.International Tactics Supervisor**",
+        "time" : {
+          "start" : 1653311342029,
+          "stop" : 1653311342029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "cyA.International Tactics Supervisor"
+        }, {
+          "name" : "expected",
+          "value" : "cyA.International Tactics Supervisor"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert [check response property :: name]: expected **{ Object (id, type, ...) }** to have property **name**",
+        "time" : {
+          "start" : 1653311342029,
+          "stop" : 1653311342029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "{\n  \"id\": 23120,\n  \"type\": 2,\n  \"user\": {\n    \"ghost_pass_exist\": false,\n    \"ghost_time_enable\": false,\n    \"trusted_wired_network_status\": false,\n    \"trusted_wifi_network_status\": false,\n    \"new_comment_notification_status\": true,\n    \"new_comment_sound_status\": true,\n    \"message_verification_status\": false,\n    \"user_secure_locations\": [],\n    \"gps_location\": false,\n    \"id\": 532,\n    \"username\": \"xxx\",\n    \"displayed_name\": \"xxx\",\n    \"email\": \"xxx@ghostdrive.com\",\n    \"color\": \"#ED1D2D\",\n    \"logo\": null,\n    \"logo_type\": null,\n    \"platform\": 2,\n    \"sharing_notification\": true,\n    \"workspace_notification\": true,\n    \"sharing_notification_sound\": true,\n    \"workspace_notification_sound\": true,\n    \"referral\": \"DqBj6bB7Jz7adbqc\",\n    \"referral_from\": \"rmwgjsgXcaqonGiB\"\n  },\n  \"name\": \"cyA.International Tactics Supervisor\",\n  \"ghostMode\": false,\n  \"securities\": [],\n  \"shares\": [],\n  \"color\": [],\n  \"schedules\": [],\n  \"tags\": [],\n  \"isPublic\": true,\n  \"isDenied\": false,\n  \"isPrinted\": true,\n  \"is_delegated\": false,\n  \"hash\": null,\n  \"created_at\": 1653311340,\n  \"updated_at\": 1653311340,\n  \"slug\": \"afe9121b-ccf2-4ae5-bbd6-a9e02e572543\",\n  \"key\": \"\",\n  \"service\": \"\",\n  \"size\": 1,\n  \"mime\": \"\",\n  \"extension\": \"\"\n}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653311342032,
+        "stop" : 1653311343866,
+        "duration" : 1834
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "deleteItemFinally (\"afe9121b-ccf2-4ae5-bbd6-a9e02e572543\"; \"5298d06d-1a84-4679-9c03-f60e854be159\"; \"undefined\"; \"undefined\")",
+        "time" : {
+          "start" : 1653311342034,
+          "stop" : 1653311343865,
+          "duration" : 1831
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "DELETE 200 https://api.dev.ghostdrive.com/api/files/multiply/delete",
+          "time" : {
+            "start" : 1653311342035,
+            "stop" : 1653311343036,
+            "duration" : 1001
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "92fea64ecb2b8cdc",
+            "name" : "requestHeaders",
+            "source" : "92fea64ecb2b8cdc.json",
+            "type" : "application/json",
+            "size" : 1248
+          }, {
+            "uid" : "aff1d80aa49091cc",
+            "name" : "request",
+            "source" : "aff1d80aa49091cc.json",
+            "type" : "application/json",
+            "size" : 86
+          }, {
+            "uid" : "77fff18cfc7ef450",
+            "name" : "responseHeaders",
+            "source" : "77fff18cfc7ef450.json",
+            "type" : "application/json",
+            "size" : 659
+          }, {
+            "uid" : "ffaddafc55b69af5",
+            "name" : "response",
+            "source" : "ffaddafc55b69af5.json",
+            "type" : "application/json",
+            "size" : 26
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "deleteItemPermanently (\"[ 'afe9121b-ccf2-4ae5-bbd6-a9e02e572543',\n  '5298d06d-1a84-4679-9c03-f60e854be159' ]\")",
+          "time" : {
+            "start" : 1653311343037,
+            "stop" : 1653311343865,
+            "duration" : 828
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "PUT 200 https://api.dev.ghostdrive.com/api/trash/multiply",
+            "time" : {
+              "start" : 1653311343037,
+              "stop" : 1653311343865,
+              "duration" : 828
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "828f752ff0993990",
+              "name" : "requestHeaders",
+              "source" : "828f752ff0993990.json",
+              "type" : "application/json",
+              "size" : 1248
+            }, {
+              "uid" : "f2b1dbbb9db16499",
+              "name" : "request",
+              "source" : "f2b1dbbb9db16499.json",
+              "type" : "application/json",
+              "size" : 98
+            }, {
+              "uid" : "841fafd226e855c",
+              "name" : "responseHeaders",
+              "source" : "841fafd226e855c.json",
+              "type" : "application/json",
+              "size" : 661
+            }, {
+              "uid" : "81da5f3de77074c1",
+              "name" : "response",
+              "source" : "81da5f3de77074c1.json",
+              "type" : "application/json",
+              "size" : 26
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 8,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 8,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1653311343879,
+        "stop" : 1653311343888,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 87,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[Astro] [IPFS] [Folders] CRUD operation with folders in IPFS storage"
+  }, {
+    "name" : "feature",
+    "value" : "[Astro] [IPFS] [Folders] CRUD operation with folders in IPFS storage"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "folders"
+  }, {
+    "name" : "tag",
+    "value" : "IPFS"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "folders"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "folders", "regression", "IPFS" ]
+  },
+  "source" : "595a10c5139404bc.json",
+  "parameterValues" : [ ]
+}
