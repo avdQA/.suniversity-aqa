@@ -1,12 +1,12 @@
 // VARIABLES & PATHS
 
-let preprocessor = 'scss', // Preprocessor (sass, scss, less, styl)
+const preprocessor = 'scss', // Preprocessor (sass, scss, less, styl)
 	fileswatch = 'html,htm,txt,json,md,woff2', // List of files extensions for watching & hard reload (comma separated)
 	imageswatch = 'jpg,jpeg,png,webp,svg', // List of images extensions for watching & compression (comma separated)
 	baseDir = 'app', // Base directory path without «/» at the end
 	online = true; // If «false» - Browsersync will work offline without internet connection
 
-let paths = {
+const paths = {
 
 	scripts: {
 		src: [
@@ -57,12 +57,15 @@ let paths = {
 }
 
 // LOGIC
+var gulp = require('gulp');
+
+
+
 
 const { src, dest, parallel, series, watch } = require('gulp');
-const sass = require('gulp-sass');
+
+const sass = require('gulp-sass')(require('sass'));
 const scss = require('gulp-sass');
-const less = require('gulp-less');
-const styl = require('gulp-stylus');
 const cleancss = require('gulp-clean-css');
 const concat = require('gulp-concat');
 const browserSync = require('browser-sync').create();
