@@ -1,0 +1,57 @@
+{
+  "data": {
+    "id": 27839,
+    "type": 1,
+    "user": {
+      "ghost_pass_exist": false,
+      "ghost_time_enable": false,
+      "trusted_wired_network_status": false,
+      "trusted_wifi_network_status": false,
+      "new_comment_notification_status": true,
+      "new_comment_sound_status": true,
+      "message_verification_status": false,
+      "user_secure_locations": [],
+      "gps_location": false,
+      "id": 532,
+      "username": "xxx",
+      "displayed_name": "xxx",
+      "email": "xxx@ghostdrive.com",
+      "color": "#ED1D2D",
+      "logo": null,
+      "logo_type": null,
+      "platform": 2,
+      "sharing_notification": true,
+      "workspace_notification": true,
+      "sharing_notification_sound": true,
+      "workspace_notification_sound": true,
+      "referral": "DqBj6bB7Jz7adbqc",
+      "referral_from": "rmwgjsgXcaqonGiB"
+    },
+    "name": "tasty_circuit_soft.svg",
+    "ghostMode": false,
+    "securities": [],
+    "shares": [],
+    "color": [
+      {
+        "id": 6,
+        "name": "red",
+        "hex": "#ED1D2D"
+      }
+    ],
+    "schedules": [],
+    "tags": [],
+    "isPublic": true,
+    "isDenied": false,
+    "isPrinted": true,
+    "is_delegated": false,
+    "hash": null,
+    "created_at": 1654592391,
+    "updated_at": 1654592392,
+    "slug": "1b47ff50-b720-4333-b1f8-4375ce9ef715",
+    "key": "QmbQEZ6zM9Nf2sZFQ8SxeX5Na6yGRCHCRduXsmnrgpW2eJ",
+    "service": "ipfs",
+    "size": 586481,
+    "mime": "image/svg+xml",
+    "extension": ".svg"
+  }
+}

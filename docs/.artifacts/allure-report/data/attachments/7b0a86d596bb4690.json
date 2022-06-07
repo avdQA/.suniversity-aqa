@@ -1,0 +1,56 @@
+{
+  "data": {
+    "id": 9846,
+    "type": 1,
+    "user": {
+      "ghost_pass_exist": false,
+      "ghost_time_enable": false,
+      "trusted_wired_network_status": false,
+      "trusted_wifi_network_status": false,
+      "new_comment_notification_status": true,
+      "new_comment_sound_status": true,
+      "message_verification_status": false,
+      "user_secure_locations": [],
+      "gps_location": false,
+      "id": 422,
+      "username": "xxx",
+      "displayed_name": "xxx",
+      "email": "xxx@ghostdrive.com",
+      "color": "#206ACF",
+      "logo": null,
+      "logo_type": null,
+      "platform": 2,
+      "sharing_notification": true,
+      "workspace_notification": true,
+      "sharing_notification_sound": true,
+      "workspace_notification_sound": true,
+      "referral": "XEiSm2zsfvYSJmxd",
+      "referral_from": "saPcpHyjNu9xGg16"
+    },
+    "name": "borders_soap.svg",
+    "ghostMode": false,
+    "securities": [],
+    "shares": [],
+    "color": [],
+    "schedules": [],
+    "tags": [
+      {
+        "id": 161,
+        "name": "cyA.ullam"
+      }
+    ],
+    "isPublic": true,
+    "isDenied": false,
+    "isPrinted": true,
+    "is_delegated": false,
+    "hash": null,
+    "created_at": 1654593756,
+    "updated_at": 1654593756,
+    "slug": "e9b19673-df25-4df0-a02c-5f05975ceabd",
+    "key": "QmbQEZ6zM9Nf2sZFQ8SxeX5Na6yGRCHCRduXsmnrgpW2eJ",
+    "service": "ipfs",
+    "size": 586481,
+    "mime": "image/svg+xml",
+    "extension": ".svg"
+  }
+}

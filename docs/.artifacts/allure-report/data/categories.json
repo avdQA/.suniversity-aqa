@@ -1,0 +1,275 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `checkPINToggle`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "children" : [ {
+        "name" : "C77 Add PIN code to file via right Sidebar",
+        "uid" : "a2c82fb124ab109b",
+        "parentUid" : "814fa538288a9e4f97e1ec5fa66dfe14",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593673651,
+          "stop" : 1654593681501,
+          "duration" : 7850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "C182 Activate the security PIN of the file using the right Sidebar",
+        "uid" : "bcbe529d1056821a",
+        "parentUid" : "814fa538288a9e4f97e1ec5fa66dfe14",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593682136,
+          "stop" : 1654593690516,
+          "duration" : 8380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "C61 Activate the security PIN of the folder using the right Sidebar",
+        "uid" : "22fd8e6481da8559",
+        "parentUid" : "814fa538288a9e4f97e1ec5fa66dfe14",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593853332,
+          "stop" : 1654593861924,
+          "duration" : 8592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "814fa538288a9e4f97e1ec5fa66dfe14"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `section.entity-settings.right-menu`, but never found it.",
+      "children" : [ {
+        "name" : "C184 Deactivate the security PIN of the file using the right Sidebar",
+        "uid" : "6b60fb9a831814e4",
+        "parentUid" : "46c6441f3d944401e061eb1fcab440e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593691110,
+          "stop" : 1654593699902,
+          "duration" : 8792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46c6441f3d944401e061eb1fcab440e2"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `div.file-view__content`, but never found it.",
+      "children" : [ {
+        "name" : "C183 Preview file with PIN by double click",
+        "uid" : "5c5a85d6f4aed4bb",
+        "parentUid" : "bd7fdc3adb8429aa536dce2ed88e3a8e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593728050,
+          "stop" : 1654593736648,
+          "duration" : 8598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd7fdc3adb8429aa536dce2ed88e3a8e"
+    }, {
+      "name" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 2nd request to the route: `workspaces`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "children" : [ {
+        "name" : "CXXX Upload any file by url",
+        "uid" : "e2690f5e9bea4efd",
+        "parentUid" : "a8e8e3e93288754ec4e1e7e58f315008",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593765879,
+          "stop" : 1654593773305,
+          "duration" : 7426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8e8e3e93288754ec4e1e7e58f315008"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find content: 'cyA.Regional Infrastructure Liaison' within the element: <div.main-container> but never did.",
+      "children" : [ {
+        "name" : "C54 Open folder with any exist folders and files",
+        "uid" : "3992aa01779a1022",
+        "parentUid" : "e67a749b60de3d5f9a18fde743113200",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593835105,
+          "stop" : 1654593844889,
+          "duration" : 9784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e67a749b60de3d5f9a18fde743113200"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected 403 to deeply equal 200",
+      "children" : [ {
+        "name" : "C60 Open the folder with active security PIN",
+        "uid" : "ec95fb97624dd84",
+        "parentUid" : "43d419fcfea1bd6cad9abd6f49e91448",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593862543,
+          "stop" : 1654593873582,
+          "duration" : 11039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43d419fcfea1bd6cad9abd6f49e91448"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `[data-test='sidebar-button-Secret Notes']`, but never found it. Queried from element: <body.drive>",
+      "children" : [ {
+        "name" : "C207 Create the first note by following the link in the middle section",
+        "uid" : "be3edc5175060593",
+        "parentUid" : "ff20d15f5cc2b328f6face754d0c208f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593946740,
+          "stop" : 1654593954920,
+          "duration" : 8180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "C208 Create the note using the plus button",
+        "uid" : "68d292ad87498b8b",
+        "parentUid" : "ff20d15f5cc2b328f6face754d0c208f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593955015,
+          "stop" : 1654593961074,
+          "duration" : 6059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "C209 Adding a title to the note",
+        "uid" : "a5b032ea627f784e",
+        "parentUid" : "ff20d15f5cc2b328f6face754d0c208f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593961097,
+          "stop" : 1654593967388,
+          "duration" : 6291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "C217 Adding some text to the note",
+        "uid" : "6e370fd862bb7ab2",
+        "parentUid" : "ff20d15f5cc2b328f6face754d0c208f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593967408,
+          "stop" : 1654593973113,
+          "duration" : 5705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "C212 Download notes as PDF",
+        "uid" : "3e20a69a2f36d2b1",
+        "parentUid" : "ff20d15f5cc2b328f6face754d0c208f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593973148,
+          "stop" : 1654593979345,
+          "duration" : 6197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "C213 Download notes as DOCX",
+        "uid" : "598d49f734659253",
+        "parentUid" : "ff20d15f5cc2b328f6face754d0c208f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654593979369,
+          "stop" : 1654593985171,
+          "duration" : 5802
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff20d15f5cc2b328f6face754d0c208f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

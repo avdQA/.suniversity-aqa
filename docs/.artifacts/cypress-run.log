@@ -1,0 +1,22 @@
+
+    =================================================
+    "Automated testing of GhostDrive WEB Application"
+    =================================================
+    STAGE             :: release,
+    TAGS              :: @regression and not @ignore,
+    started Tests at  :: 2022-06-07T09:19:49.431Z,
+    ended Tests at    :: 2022-06-07T09:26:46.579Z,
+    OS name           :: win32,
+    OS --version      :: 10.0.22000,
+    Browser           :: chrome,
+    Browser --version :: 102.0.5005.61,
+    Cypress --version :: 10.0.3,
+    -------------------------------------------------
+    RUN RESULT 
+    -------------------------------------------------
+    total Tests       :: 71,
+    total Failed      :: 14,
+    total Passed      :: 53,
+    total Pending     :: 4,
+    total Skipped     :: 0,
+    
