@@ -1,1 +1,10 @@
-[ ]
+[ {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "102.0.5005.61" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Release" ],
+  "name" : "Stand"
+} ]

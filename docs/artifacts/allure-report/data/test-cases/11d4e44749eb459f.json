@@ -1,0 +1,711 @@
+{
+  "uid" : "11d4e44749eb459f",
+  "name" : "C80 Delete file from \"DELETED\" using the context menu",
+  "fullName" : "C80 Delete file from \"DELETED\" using the context menu",
+  "historyId" : "9011986ab28491741695b1f20fcb81a3",
+  "time" : {
+    "start" : 1654595822426,
+    "stop" : 1654595829209,
+    "duration" : 6783
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `uploadFile`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+  "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `uploadFile`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:174972:18)\n    at Object.errByPath (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:175041:10)\n    at checkForXhr (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:160461:92)\n    at https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:160484:28\n    at tryCatcher (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:13012:23)\n    at Promise.attempt.Promise.try (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:10286:29)\n    at whenStable (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:166932:65)\n    at https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:166387:14\n    at tryCatcher (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:13012:23)\n    at Promise._settlePromiseFromHandler (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:10947:31)\n    at Promise._settlePromise (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11004:18)\n    at Promise._settlePromise0 (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11049:10)\n    at Promise._settlePromises (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11129:18)\n    at Promise._fulfill (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11073:18)\n    at https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:12687:46\nFrom Your Spec Code:\n    at Context.eval (https://stage.ghostdrive.com/__cypress/tests?p=cypress\\support\\e2e.js:159:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `uploadFile`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+    "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `uploadFile`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:174972:18)\n    at Object.errByPath (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:175041:10)\n    at checkForXhr (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:160461:92)\n    at https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:160484:28\n    at tryCatcher (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:13012:23)\n    at Promise.attempt.Promise.try (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:10286:29)\n    at whenStable (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:166932:65)\n    at https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:166387:14\n    at tryCatcher (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:13012:23)\n    at Promise._settlePromiseFromHandler (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:10947:31)\n    at Promise._settlePromise (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11004:18)\n    at Promise._settlePromise0 (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11049:10)\n    at Promise._settlePromises (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11129:18)\n    at Promise._fulfill (https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:11073:18)\n    at https://stage.ghostdrive.com/__cypress/runner/cypress_runner.js:12687:46\nFrom Your Spec Code:\n    at Context.eval (https://stage.ghostdrive.com/__cypress/tests?p=cypress\\support\\e2e.js:159:13)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1654595822426,
+        "stop" : 1654595822448,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log [ActivePage set null] >_ is done.",
+        "time" : {
+          "start" : 1654595822446,
+          "stop" : 1654595822447,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1654595822448,
+        "stop" : 1654595822448,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given User should be on the Home web page",
+      "time" : {
+        "start" : 1654595822452,
+        "stop" : 1654595823020,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1654595822453,
+          "stop" : 1654595823020,
+          "duration" : 567
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And User should be on the Main web page and signed as \"Phantom user\"",
+      "time" : {
+        "start" : 1654595823020,
+        "stop" : 1654595823969,
+        "duration" : 949
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getActiveUser (\"Phantom user\")",
+        "time" : {
+          "start" : 1654595823021,
+          "stop" : 1654595823021,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "setTokenToLocalStorage (\"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTMzMzAwMzMsImV4cCI6MTY4NDg2NjAzMywicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoieHh4IiwidXNlcl9zZXNzaW9uX3V1aWQiOiI2YWEwYTRmMi02ODMxLTQyMjktODI4My03MmViOGIzMDU1OWIiLCJ3b3Jrc3BhY2VfaWQiOjc4NH0.NDcZEfcdSkW7eRmqhUJ2lOiPtvMWwnjjuVLEPSISBcrdoMjBlw6-6o0Vy6s8MO78ld8bKEPiACUNoHjNc5SSouDtnP143e5T0BqqaP_1Glm_d8NfgjW-5KUDLCdKj_2jVBQzbUD2Ah6oyEJTw93xkKNGggKWi3ScHGrwTEpBU6EHw32Tnog2BtLMLIXbzuoSVxOIVO-AypvMQb1SXchDf9GvhrFsvwNM1nRy5ZISnkk3lwRXDZNuX4Z401LaemeRPL8OOUuXxD0SVMpIwYPGlaZBbVJKtV0bYyvmpd_zS7wp0ohvAekwHE4RO4IEwyJIU3Wg2qCCGmph_Sv1Zf3wvFyboNHRyvMGeh1v90fKs8zecMka_b7-QYLuhSh8p8xACwIublkPkF4hG0iOdNb1JFGhMAmsxlV41IV6e4uuN06H1ek4cRPkK77bPMaLbu52KDu_bijKaK7hZd8LvOD8_KBctFzSJqy0N-AFfbVW3Iajkv24zQwZEAja0D3EjgCtP9DHT9pXkPdRQV2wtMQIvtGNmJTnd14CICMOBFkWsjzJnHg9FDwDpEXjMfa98j3Qf8OE8TMEas14FqwdAqps7qxLm0DxDKz2hhzv52SFgcKOxc5ZP9Ee_3-RfmJ01Yfk0bvcEoSqGoYtGv-2zq-oSg_iBVc3Ti8TvcGOOxgvC3M\")",
+        "time" : {
+          "start" : 1654595823021,
+          "stop" : 1654595823022,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "intercept (\"/api/me\")",
+        "time" : {
+          "start" : 1654595823022,
+          "stop" : 1654595823086,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"me\")",
+        "time" : {
+          "start" : 1654595823086,
+          "stop" : 1654595823086,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "intercept (\"/api/user/workspaces\")",
+        "time" : {
+          "start" : 1654595823086,
+          "stop" : 1654595823097,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "as (\"workspaces\")",
+        "time" : {
+          "start" : 1654595823097,
+          "stop" : 1654595823097,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit /main",
+        "time" : {
+          "start" : 1654595823097,
+          "stop" : 1654595823372,
+          "duration" : 275
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/me",
+        "time" : {
+          "start" : 1654595823372,
+          "stop" : 1654595823372,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "wait @workspaces",
+        "time" : {
+          "start" : 1654595823372,
+          "stop" : 1654595823968,
+          "duration" : 596
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/notifications?read=0&page=1",
+        "time" : {
+          "start" : 1654595823968,
+          "stop" : 1654595823968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/user/workspaces",
+        "time" : {
+          "start" : 1654595823968,
+          "stop" : 1654595823968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/tags.json",
+        "time" : {
+          "start" : 1654595823968,
+          "stop" : 1654595823968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/colors",
+        "time" : {
+          "start" : 1654595823968,
+          "stop" : 1654595823968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/files?page=1",
+        "time" : {
+          "start" : 1654595823968,
+          "stop" : 1654595823968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/notifications?read=1&page=1",
+        "time" : {
+          "start" : 1654595823968,
+          "stop" : 1654595823968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given any deleted file",
+      "time" : {
+        "start" : 1654595823969,
+        "stop" : 1654595829208,
+        "duration" : 5239
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get body",
+        "time" : {
+          "start" : 1654595823970,
+          "stop" : 1654595823970,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "find [data-test='sidebar-button-Files']",
+        "time" : {
+          "start" : 1654595823970,
+          "stop" : 1654595823972,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click {force: true}",
+        "time" : {
+          "start" : 1654595823972,
+          "stop" : 1654595824032,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "uploadFile (\"small\"; \"svg\")",
+        "time" : {
+          "start" : 1654595824032,
+          "stop" : 1654595829208,
+          "duration" : 5176
+        },
+        "status" : "failed",
+        "steps" : [ {
+          "name" : "log [fakeFileName] >_ ai_account.svg",
+          "time" : {
+            "start" : 1654595824033,
+            "stop" : 1654595824033,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "intercept (\"POST\"; \"/api/files/ipfs\")",
+          "time" : {
+            "start" : 1654595824033,
+            "stop" : 1654595824043,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "as (\"uploadFile\")",
+          "time" : {
+            "start" : 1654595824043,
+            "stop" : 1654595824044,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "intercept (\"POST\"; \"/api/files/node/ipfs\")",
+          "time" : {
+            "start" : 1654595824044,
+            "stop" : 1654595824045,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "as (\"uploadFile\")",
+          "time" : {
+            "start" : 1654595824045,
+            "stop" : 1654595824045,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "intercept (\"POST\"; \"/api/files\")",
+          "time" : {
+            "start" : 1654595824045,
+            "stop" : 1654595824047,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "as (\"uploadFile\")",
+          "time" : {
+            "start" : 1654595824047,
+            "stop" : 1654595824047,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "get [data-test='drive_container'] input[type='file']",
+          "time" : {
+            "start" : 1654595824047,
+            "stop" : 1654595824048,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "attachFile (\"{ filePath: '/uploads-file/small.svg',\n  fileName: 'ai_account.svg',\n  lastModified: 1654595824033 }\")",
+          "time" : {
+            "start" : 1654595824048,
+            "stop" : 1654595824055,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "fixture (\"/uploads-file/small.svg\"; \"utf8\")",
+            "time" : {
+              "start" : 1654595824049,
+              "stop" : 1654595824052,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "attachFile ai_account.svg",
+            "time" : {
+              "start" : 1654595824055,
+              "stop" : 1654595824055,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "wait @uploadFile",
+          "time" : {
+            "start" : 1654595824056,
+            "stop" : 1654595829208,
+            "duration" : 5152
+          },
+          "status" : "failed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "POST 429 https://ipfs.infura.io:5001/api/v0/add?stream-channels=true&progress=false",
+          "time" : {
+            "start" : 1654595829208,
+            "stop" : 1654595829208,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 13,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 17,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1654595829218,
+        "stop" : 1654595829219,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "deleteItemFinally (\"undefined\"; \"undefined\"; \"undefined\"; \"undefined\")",
+        "time" : {
+          "start" : 1654595829219,
+          "stop" : 1654595829219,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1654595829220,
+        "stop" : 1654595829221,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b885faf24f5a801c",
+      "name" : "cypress/e2e/Astro/files.feature:2022-06-07T09:57:09.083Z",
+      "source" : "b885faf24f5a801c.png",
+      "type" : "image/png",
+      "size" : 82526
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 42,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[Files] Operation with files"
+  }, {
+    "name" : "feature",
+    "value" : "[Files] Operation with files"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "files"
+  }, {
+    "name" : "tag",
+    "value" : "IPFS"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "files"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "regression", "IPFS", "files" ]
+  },
+  "source" : "11d4e44749eb459f.json",
+  "parameterValues" : [ ]
+}

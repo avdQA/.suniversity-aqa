@@ -1,0 +1,15 @@
+{
+  "server": "nginx/1.21.3",
+  "date": "Tue, 07 Jun 2022 09:59:34 GMT",
+  "content-type": "application/json",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "vary": "Accept-Encoding, Accept-Encoding",
+  "cache-control": "private, must-revalidate",
+  "allow": "PUT",
+  "pragma": "no-cache",
+  "expires": "-1",
+  "link": "<http://api.stage.ghostdrive.com/api/docs.jsonld>; rel=\"http://www.w3.org/ns/hydra/core#apiDocumentation\"",
+  "strict-transport-security": "max-age=31536000",
+  "content-encoding": "gzip"
+}

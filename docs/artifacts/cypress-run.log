@@ -4,8 +4,8 @@
     =================================================
     STAGE             :: release,
     TAGS              :: @regression and not @ignore,
-    started Tests at  :: 2022-06-07T09:19:49.431Z,
-    ended Tests at    :: 2022-06-07T09:26:46.579Z,
+    started Tests at  :: 2022-06-07T09:55:21.277Z,
+    ended Tests at    :: 2022-06-07T10:01:42.594Z,
     OS name           :: win32,
     OS --version      :: 10.0.22000,
     Browser           :: chrome,
@@ -15,8 +15,8 @@
     RUN RESULT 
     -------------------------------------------------
     total Tests       :: 71,
-    total Failed      :: 14,
-    total Passed      :: 53,
+    total Failed      :: 3,
+    total Passed      :: 64,
     total Pending     :: 4,
     total Skipped     :: 0,
     

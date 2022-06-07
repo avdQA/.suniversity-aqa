@@ -1,24 +1,13 @@
 {
   "total" : 6,
   "items" : [ {
-    "uid" : "922ba8d714ee29d279fadb43ab6e7343",
-    "name" : "[Secret Notes] Operation with \"Secret Notes\" dApps",
-    "statistic" : {
-      "failed" : 6,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 10
-    }
-  }, {
     "uid" : "c105bf3236dee834e6202bd5ea9eaf2f",
     "name" : "[Files] Operation with files",
     "statistic" : {
-      "failed" : 5,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 19,
+      "passed" : 22,
       "unknown" : 0,
       "total" : 25
     }
@@ -26,12 +15,23 @@
     "uid" : "0d428768411f055dc2a45caf8440e440",
     "name" : "[Folders] Operation with folders in IPFS storage",
     "statistic" : {
-      "failed" : 3,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 26,
+      "passed" : 28,
       "unknown" : 0,
       "total" : 29
+    }
+  }, {
+    "uid" : "922ba8d714ee29d279fadb43ab6e7343",
+    "name" : "[Secret Notes] Operation with \"Secret Notes\" dApps",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
     }
   }, {
     "uid" : "c8dea4e8f0a167e2aca26a167dd46f36",

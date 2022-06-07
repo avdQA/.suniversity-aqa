@@ -1,711 +1,711 @@
 [ {
-  "uid" : "d2b689851f45cf08",
-  "name" : "C47 Delete empty folder from \"DELETED\" via Topbar",
+  "uid" : "8d07755b1598a891",
+  "name" : "C39 Add tag to folder using the context menu",
   "time" : {
-    "start" : 1654593874202,
-    "stop" : 1654593878860,
-    "duration" : 4658
+    "start" : 1654595931823,
+    "stop" : 1654595935727,
+    "duration" : 3904
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4f7f29f877ded113",
-  "name" : "C230 Delete file with comment from \"DELETED\" using the Topbar",
+  "uid" : "9f9e06e2a0c4513d",
+  "name" : "C225 Delete folder with comment from trash",
   "time" : {
-    "start" : 1654593761912,
-    "stop" : 1654593765843,
-    "duration" : 3931
+    "start" : 1654596036033,
+    "stop" : 1654596038159,
+    "duration" : 2126
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b0103aae06a50613",
-  "name" : "C48 Delete folder with any file from \"DELETED\" via Contextmenu",
+  "uid" : "722836fe4e6d0054",
+  "name" : "(C18) User wants to creates workspace with \"Ghost Cloud\" storage",
   "time" : {
-    "start" : 1654593878882,
-    "stop" : 1654593884430,
-    "duration" : 5548
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "17d17f9e502ed782",
-  "name" : "C42 Download folder with file",
-  "time" : {
-    "start" : 1654593921974,
-    "stop" : 1654593924389,
-    "duration" : 2415
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c291659f60804610",
-  "name" : "Check Cookie Policy link",
-  "time" : {
-    "start" : 1654593603448,
-    "stop" : 1654593604199,
-    "duration" : 751
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5af9fc541c61b6b",
-  "name" : "C50 Create children folder using the Topbar menu",
-  "time" : {
-    "start" : 1654593794873,
-    "stop" : 1654593799657,
-    "duration" : 4784
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15a65e9a74ea73ad",
-  "name" : "C215 Add text to note and use \"Undo\" arrow",
-  "time" : {
-    "start" : 1654593989596,
-    "stop" : 1654593998337,
-    "duration" : 8741
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bb652056aa6b5a8",
-  "name" : "C81 Delete file from \"DELETED\" using the Topbar",
-  "time" : {
-    "start" : 1654593705263,
-    "stop" : 1654593708674,
-    "duration" : 3411
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73fbac96763731d0",
-  "name" : "C94 Change the color of the file using the right sidebar",
-  "time" : {
-    "start" : 1654593659372,
-    "stop" : 1654593662653,
-    "duration" : 3281
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22fd8e6481da8559",
-  "name" : "C61 Activate the security PIN of the folder using the right Sidebar",
-  "time" : {
-    "start" : 1654593853332,
-    "stop" : 1654593861924,
-    "duration" : 8592
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ac38965076471bc",
-  "name" : "C98 Restore folder from \"DELETED\" using the context menu",
-  "time" : {
-    "start" : 1654593909257,
-    "stop" : 1654593913693,
-    "duration" : 4436
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "598d49f734659253",
-  "name" : "C213 Download notes as DOCX",
-  "time" : {
-    "start" : 1654593979369,
-    "stop" : 1654593985171,
-    "duration" : 5802
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "68d292ad87498b8b",
-  "name" : "C208 Create the note using the plus button",
-  "time" : {
-    "start" : 1654593955015,
-    "stop" : 1654593961074,
-    "duration" : 6059
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b60fb9a831814e4",
-  "name" : "C184 Deactivate the security PIN of the file using the right Sidebar",
-  "time" : {
-    "start" : 1654593691110,
-    "stop" : 1654593699902,
-    "duration" : 8792
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "fedd8e643068c17a",
-  "name" : "C221 Delete folder with added color from trash",
-  "time" : {
-    "start" : 1654593926841,
-    "stop" : 1654593929026,
-    "duration" : 2185
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "db9b53593335be26",
-  "name" : "(C17) User wants to creates workspace with \"IPFS\" storage",
-  "time" : {
-    "start" : 1654593611966,
-    "stop" : 1654593611969,
-    "duration" : 3
+    "start" : 1654595745022,
+    "stop" : 1654595745022,
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "8442eb1261724470",
-  "name" : "C95 Restore a file from \"DELTED\" using the context menu",
-  "time" : {
-    "start" : 1654593708703,
-    "stop" : 1654593712081,
-    "duration" : 3378
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "baadcbf1cf09a24d",
-  "name" : "C78 Download file using the context menu",
-  "time" : {
-    "start" : 1654593717999,
-    "stop" : 1654593722453,
-    "duration" : 4454
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6973d222465dd361",
-  "name" : "Check Privacy Policy link",
-  "time" : {
-    "start" : 1654593602544,
-    "stop" : 1654593603436,
-    "duration" : 892
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f5aeee0824ec2b93",
-  "name" : "C72 Add color of the file using the right sidebar",
-  "time" : {
-    "start" : 1654593655814,
-    "stop" : 1654593658820,
-    "duration" : 3006
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a0f4410f2f30cd0",
+  "uid" : "73efc0f48258eb9a",
   "name" : "C180 Check analytics of file with comment using the context menu",
   "time" : {
-    "start" : 1654593743410,
-    "stop" : 1654593748532,
-    "duration" : 5122
+    "start" : 1654595864449,
+    "stop" : 1654595868793,
+    "duration" : 4344
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d9e28a2a53e55993",
-  "name" : "C44 Move empty folder to \"DELETED\" via Contextmenu",
-  "time" : {
-    "start" : 1654593818816,
-    "stop" : 1654593823050,
-    "duration" : 4234
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6ef0ae87aee7e418",
-  "name" : "C220 Delete folder with tag from trash",
-  "time" : {
-    "start" : 1654593929040,
-    "stop" : 1654593930994,
-    "duration" : 1954
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a5b032ea627f784e",
-  "name" : "C209 Adding a title to the note",
-  "time" : {
-    "start" : 1654593961097,
-    "stop" : 1654593967388,
-    "duration" : 6291
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4340e673f0b03ea",
-  "name" : "C43 Download folder with children folders and files",
-  "time" : {
-    "start" : 1654593924451,
-    "stop" : 1654593926775,
-    "duration" : 2324
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cdd26ad9429f625f",
+  "uid" : "2adb1d264c2fe06c",
   "name" : "C66 Preview file by double click",
   "time" : {
-    "start" : 1654593723094,
-    "stop" : 1654593727410,
-    "duration" : 4316
+    "start" : 1654595848791,
+    "stop" : 1654595852436,
+    "duration" : 3645
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8c2078cfc43da081",
-  "name" : "C70 Move the file to a folder using the context menu",
+  "uid" : "3b1968968ec1bcae",
+  "name" : "C49 Delete parent folder with any folders and files from \"DELETED\" via Contextmenu",
   "time" : {
-    "start" : 1654593667730,
-    "stop" : 1654593673050,
-    "duration" : 5320
+    "start" : 1654595990207,
+    "stop" : 1654595997929,
+    "duration" : 7722
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bcbe529d1056821a",
-  "name" : "C182 Activate the security PIN of the file using the right Sidebar",
+  "uid" : "9328f7b6ea5a9ae0",
+  "name" : "C221 Delete folder with added color from trash",
   "time" : {
-    "start" : 1654593682136,
-    "stop" : 1654593690516,
-    "duration" : 8380
+    "start" : 1654596031624,
+    "stop" : 1654596033729,
+    "duration" : 2105
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5d617d1e3c5dbc6b",
-  "name" : "C211  Printing a note",
+  "uid" : "103eb31de90214aa",
+  "name" : "C68 When user previewing file he wants print file",
   "time" : {
-    "start" : 1654593954994,
-    "stop" : 1654593954996,
+    "start" : 1654595782320,
+    "stop" : 1654595782322,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "d419674112301bdc",
-  "name" : "C93 Check the analytics of the folder with 1 downloads and 1 file using the context menu",
-  "time" : {
-    "start" : 1654593902741,
-    "stop" : 1654593908574,
-    "duration" : 5833
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f066bdd2ed4e432",
-  "name" : "C40 Add comment to folder using the context menu",
-  "time" : {
-    "start" : 1654593809674,
-    "stop" : 1654593813729,
-    "duration" : 4055
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "caa8334248e19301",
-  "name" : "C76 Download file using the Topbar",
-  "time" : {
-    "start" : 1654593712656,
-    "stop" : 1654593717349,
-    "duration" : 4693
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "552e8fc242d19b57",
-  "name" : "C225 Delete folder with comment from trash",
-  "time" : {
-    "start" : 1654593931036,
-    "stop" : 1654593933224,
-    "duration" : 2188
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97890c107c659c51",
-  "name" : "Check Term of Service link",
-  "time" : {
-    "start" : 1654593599607,
-    "stop" : 1654593602519,
-    "duration" : 2912
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be3edc5175060593",
-  "name" : "C207 Create the first note by following the link in the middle section",
-  "time" : {
-    "start" : 1654593946740,
-    "stop" : 1654593954920,
-    "duration" : 8180
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ec95fb97624dd84",
+  "uid" : "2e16fc646a88d877",
   "name" : "C60 Open the folder with active security PIN",
   "time" : {
-    "start" : 1654593862543,
-    "stop" : 1654593873582,
-    "duration" : 11039
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "41f8f47555af4bb2",
-  "name" : "C35 Create folder using the Topbar menu",
-  "time" : {
-    "start" : 1654593787732,
-    "stop" : 1654593794267,
-    "duration" : 6535
+    "start" : 1654595975081,
+    "stop" : 1654595980430,
+    "duration" : 5349
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c70576e5b443d7d1",
-  "name" : "C65 Upload any file",
-  "time" : {
-    "start" : 1654593649325,
-    "stop" : 1654593651648,
-    "duration" : 2323
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e2690f5e9bea4efd",
-  "name" : "CXXX Upload any file by url",
-  "time" : {
-    "start" : 1654593765879,
-    "stop" : 1654593773305,
-    "duration" : 7426
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3e20a69a2f36d2b1",
-  "name" : "C212 Download notes as PDF",
-  "time" : {
-    "start" : 1654593973148,
-    "stop" : 1654593979345,
-    "duration" : 6197
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "161f53d621efa33b",
-  "name" : "C51 Upload file to folder using the Topbar",
-  "time" : {
-    "start" : 1654593749100,
-    "stop" : 1654593753446,
-    "duration" : 4346
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a727754c04bbd906",
-  "name" : "C37 Rename an existing folder using the context menu",
-  "time" : {
-    "start" : 1654593800212,
-    "stop" : 1654593804640,
-    "duration" : 4428
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2faefc0760c07555",
-  "name" : "C46 Move parent folder with any exist folders and files to \"DELETED\" via Contextmenu",
-  "time" : {
-    "start" : 1654593828404,
-    "stop" : 1654593835082,
-    "duration" : 6678
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3fce74f760e6ead5",
-  "name" : "C39 Add tag to folder using the context menu",
-  "time" : {
-    "start" : 1654593814273,
-    "stop" : 1654593818267,
-    "duration" : 3994
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53305143f77ddf87",
+  "uid" : "86d026746c02252a",
   "name" : "C57 Download folder using the Topbar",
   "time" : {
-    "start" : 1654593892384,
-    "stop" : 1654593896460,
-    "duration" : 4076
+    "start" : 1654595997987,
+    "stop" : 1654596001801,
+    "duration" : 3814
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6e370fd862bb7ab2",
-  "name" : "C217 Adding some text to the note",
-  "time" : {
-    "start" : 1654593967408,
-    "stop" : 1654593973113,
-    "duration" : 5705
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3992aa01779a1022",
-  "name" : "C54 Open folder with any exist folders and files",
-  "time" : {
-    "start" : 1654593835105,
-    "stop" : 1654593844889,
-    "duration" : 9784
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "932bf5baa8ca1a33",
-  "name" : "C34 User wants to switch to another workspace",
-  "time" : {
-    "start" : 1654593623867,
-    "stop" : 1654593629208,
-    "duration" : 5341
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "be90a7a63fd621f9",
-  "name" : "C74 Add a comment to the file using the right sidebar",
-  "time" : {
-    "start" : 1654593663241,
-    "stop" : 1654593667155,
-    "duration" : 3914
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5c5a85d6f4aed4bb",
+  "uid" : "880904ded0e2e184",
   "name" : "C183 Preview file with PIN by double click",
   "time" : {
-    "start" : 1654593728050,
-    "stop" : 1654593736648,
-    "duration" : 8598
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f88d63b2c603aa7e",
-  "name" : "Check the GhostDrive homepage title",
-  "time" : {
-    "start" : 1654593594142,
-    "stop" : 1654593599575,
-    "duration" : 5433
+    "start" : 1654595853045,
+    "stop" : 1654595858840,
+    "duration" : 5795
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "45d6f844e53c9a8d",
-  "name" : "C226 Delete file with added tag from \"DELETED\" using the context menu",
-  "time" : {
-    "start" : 1654593754009,
-    "stop" : 1654593757990,
-    "duration" : 3981
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d4ecd0d400868d0",
-  "name" : "C86 Edit color of the folder using the right Sidebar",
-  "time" : {
-    "start" : 1654593897008,
-    "stop" : 1654593902182,
-    "duration" : 5174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "498ba55e04c1fc4d",
+  "uid" : "35d57b9e17f9a257",
   "name" : "C216 Delete some text and use \"Redo\" arrow",
   "time" : {
-    "start" : 1654593998708,
-    "stop" : 1654594006156,
-    "duration" : 7448
+    "start" : 1654596096025,
+    "stop" : 1654596102241,
+    "duration" : 6216
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b373cac692d59255",
-  "name" : "(C18) User wants to creates workspace with \"Ghost Cloud\" storage",
+  "uid" : "f748e0d310d0f38a",
+  "name" : "C71 Rename an existing file by context menu",
   "time" : {
-    "start" : 1654593611994,
-    "stop" : 1654593611995,
-    "duration" : 1
+    "start" : 1654595785311,
+    "stop" : 1654595788618,
+    "duration" : 3307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "351ef359b6f4312e",
+  "name" : "C95 Restore a file from \"DELTED\" using the context menu",
+  "time" : {
+    "start" : 1654595834903,
+    "stop" : 1654595838442,
+    "duration" : 3539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a25fed5653ef8da0",
+  "name" : "C91 Deactivate the security PIN of the folder using the right Sidebar",
+  "time" : {
+    "start" : 1654596022696,
+    "stop" : 1654596024825,
+    "duration" : 2129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc7d0d5f6afe23f4",
+  "name" : "C212 Download notes as PDF",
+  "time" : {
+    "start" : 1654596072394,
+    "stop" : 1654596078119,
+    "duration" : 5725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90a51bb869aeec9d",
+  "name" : "C94 Change the color of the file using the right sidebar",
+  "time" : {
+    "start" : 1654595792815,
+    "stop" : 1654595796047,
+    "duration" : 3232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df4ae5cec8ec6262",
+  "name" : "C209 Adding a title to the note",
+  "time" : {
+    "start" : 1654596060115,
+    "stop" : 1654596064608,
+    "duration" : 4493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c22d0f6632ca2e41",
+  "name" : "C34 User wants to switch to another workspace",
+  "time" : {
+    "start" : 1654595756918,
+    "stop" : 1654595762216,
+    "duration" : 5298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f36abdeb542d8bb8",
+  "name" : "C217 Adding some text to the note",
+  "time" : {
+    "start" : 1654596064951,
+    "stop" : 1654596072059,
+    "duration" : 7108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da74b957ed626c0c",
+  "name" : "C51 Upload file to folder using the Topbar",
+  "time" : {
+    "start" : 1654595869370,
+    "stop" : 1654595873738,
+    "duration" : 4368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75991b42fa81fa3d",
+  "name" : "C86 Edit color of the folder using the right Sidebar",
+  "time" : {
+    "start" : 1654596002378,
+    "stop" : 1654596007462,
+    "duration" : 5084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dde71dbf922e0969",
+  "name" : "C43 Download folder with children folders and files",
+  "time" : {
+    "start" : 1654596029353,
+    "stop" : 1654596031591,
+    "duration" : 2238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5edcf905925b78b2",
+  "name" : "C70 Move the file to a folder using the context menu",
+  "time" : {
+    "start" : 1654595801757,
+    "stop" : 1654595807060,
+    "duration" : 5303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6150ba43b13ba7a9",
+  "name" : "C44 Move empty folder to \"DELETED\" via Contextmenu",
+  "time" : {
+    "start" : 1654595936269,
+    "stop" : 1654595940425,
+    "duration" : 4156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bd2f7855928992",
+  "name" : "C215 Add text to note and use \"Undo\" arrow",
+  "time" : {
+    "start" : 1654596089104,
+    "stop" : 1654596095709,
+    "duration" : 6605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96e6a6ae6ef4fbde",
+  "name" : "C61 Activate the security PIN of the folder using the right Sidebar",
+  "time" : {
+    "start" : 1654595970409,
+    "stop" : 1654595974459,
+    "duration" : 4050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "155c8d5e234473ad",
+  "name" : "C81 Delete file from \"DELETED\" using the Topbar",
+  "time" : {
+    "start" : 1654595829264,
+    "stop" : 1654595834816,
+    "duration" : 5552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f6f169c97e06bbf",
+  "name" : "C46 Move parent folder with any exist folders and files to \"DELETED\" via Contextmenu",
+  "time" : {
+    "start" : 1654595946519,
+    "stop" : 1654595953101,
+    "duration" : 6582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0bc169cc39aa8d5",
+  "name" : "C211  Printing a note",
+  "time" : {
+    "start" : 1654596057236,
+    "stop" : 1654596057238,
+    "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "a2c82fb124ab109b",
+  "uid" : "64ca9fa6ec0c1e25",
+  "name" : "C41 Download empty folder",
+  "time" : {
+    "start" : 1654596024859,
+    "stop" : 1654596027079,
+    "duration" : 2220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a743a1ab7c5559a1",
   "name" : "C77 Add PIN code to file via right Sidebar",
   "time" : {
-    "start" : 1654593673651,
-    "stop" : 1654593681501,
-    "duration" : 7850
+    "start" : 1654595807633,
+    "stop" : 1654595811395,
+    "duration" : 3762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a884c0f1b3b267fa",
+  "name" : "(C17) User wants to creates workspace with \"IPFS\" storage",
+  "time" : {
+    "start" : 1654595744979,
+    "stop" : 1654595744982,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "11d4e44749eb459f",
+  "name" : "C80 Delete file from \"DELETED\" using the context menu",
+  "time" : {
+    "start" : 1654595822426,
+    "stop" : 1654595829209,
+    "duration" : 6783
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "d67efe129d19d17e",
-  "name" : "C91 Deactivate the security PIN of the folder using the right Sidebar",
+  "uid" : "8c4e03f3970ed39a",
+  "name" : "C182 Activate the security PIN of the file using the right Sidebar",
   "time" : {
-    "start" : 1654593917642,
-    "stop" : 1654593919975,
-    "duration" : 2333
+    "start" : 1654595811948,
+    "stop" : 1654595815241,
+    "duration" : 3293
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4dcad10336a5eda2",
-  "name" : "C227 Delete file with added color from \"DELETED\" using the Topbar",
-  "time" : {
-    "start" : 1654593758014,
-    "stop" : 1654593761900,
-    "duration" : 3886
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b2b67b688cb069b9",
-  "name" : "C38 Add color to folder using the context menu",
-  "time" : {
-    "start" : 1654593805247,
-    "stop" : 1654593809097,
-    "duration" : 3850
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e7a24eb56b0ac49",
-  "name" : "C51 Upload Small SVG file to folder",
-  "time" : {
-    "start" : 1654593641007,
-    "stop" : 1654593648650,
-    "duration" : 7643
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bfb3359986bc95e1",
-  "name" : "C214 Delete a note",
-  "time" : {
-    "start" : 1654593985190,
-    "stop" : 1654593989538,
-    "duration" : 4348
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1943f8201a33f99f",
-  "name" : "C55 Move folder B to folder A via \"drag and drop\"",
-  "time" : {
-    "start" : 1654593845546,
-    "stop" : 1654593852727,
-    "duration" : 7181
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c8d99f9569c6e8a4",
-  "name" : "C45 Move folder with file to \"DELETED\" via Contextmenu",
-  "time" : {
-    "start" : 1654593823056,
-    "stop" : 1654593828374,
-    "duration" : 5318
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e00a3cc66345e676",
-  "name" : "C71 Rename an existing file by context menu",
-  "time" : {
-    "start" : 1654593652203,
-    "stop" : 1654593655236,
-    "duration" : 3033
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a088a6f14f4a75c1",
-  "name" : "C97 Restore deleted folder with file from “DELETED” via Top bar",
-  "time" : {
-    "start" : 1654593914243,
-    "stop" : 1654593915978,
-    "duration" : 1735
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "91ce455d659d1691",
-  "name" : "C88 Delete tag of folder via right Sidebar",
-  "time" : {
-    "start" : 1654593915992,
-    "stop" : 1654593917628,
-    "duration" : 1636
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "404ff02cb335847e",
-  "name" : "C41 Download empty folder",
-  "time" : {
-    "start" : 1654593920030,
-    "stop" : 1654593921960,
-    "duration" : 1930
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61e10bffb32be169",
-  "name" : "C49 Delete parent folder with any folders and files from \"DELETED\" via Contextmenu",
-  "time" : {
-    "start" : 1654593884463,
-    "stop" : 1654593892280,
-    "duration" : 7817
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "317b0a3bd95e9c48",
+  "uid" : "b0511f2339dcaf60",
   "name" : "C67 Download file in preview mode using the Topbar",
   "time" : {
-    "start" : 1654593737269,
-    "stop" : 1654593742735,
-    "duration" : 5466
+    "start" : 1654595859468,
+    "stop" : 1654595863858,
+    "duration" : 4390
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fbb6ea74cdd362a7",
-  "name" : "C80 Delete file from \"DELETED\" using the context menu",
+  "uid" : "ddbf0c037b6485a6",
+  "name" : "C98 Restore folder from \"DELETED\" using the context menu",
   "time" : {
-    "start" : 1654593700480,
-    "stop" : 1654593705197,
-    "duration" : 4717
+    "start" : 1654596014005,
+    "stop" : 1654596018512,
+    "duration" : 4507
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8eb794353312b943",
-  "name" : "C68 When user previewing file he wants print file",
+  "uid" : "cd3d0a48347416ef",
+  "name" : "C74 Add a comment to the file using the right sidebar",
   "time" : {
-    "start" : 1654593649306,
-    "stop" : 1654593649307,
-    "duration" : 1
+    "start" : 1654595796623,
+    "stop" : 1654595801145,
+    "duration" : 4522
   },
-  "status" : "skipped",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "323eb41dfa541fc1",
+  "name" : "C48 Delete folder with any file from \"DELETED\" via Contextmenu",
+  "time" : {
+    "start" : 1654595985249,
+    "stop" : 1654595990183,
+    "duration" : 4934
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fddabe64b6cfd77",
+  "name" : "C93 Check the analytics of the folder with 1 downloads and 1 file using the context menu",
+  "time" : {
+    "start" : 1654596008039,
+    "stop" : 1654596013435,
+    "duration" : 5396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3313f51395684a4e",
+  "name" : "C220 Delete folder with tag from trash",
+  "time" : {
+    "start" : 1654596033764,
+    "stop" : 1654596036002,
+    "duration" : 2238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7967012637f03fa0",
+  "name" : "C35 Create folder using the Topbar menu",
+  "time" : {
+    "start" : 1654595906094,
+    "stop" : 1654595912337,
+    "duration" : 6243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c26e1814d9fee93b",
+  "name" : "Check Privacy Policy link",
+  "time" : {
+    "start" : 1654595734460,
+    "stop" : 1654595735569,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fb88bd27608bb44",
+  "name" : "CXXX Upload any file by url",
+  "time" : {
+    "start" : 1654595885897,
+    "stop" : 1654595892891,
+    "duration" : 6994
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "46f95b27dcb411bd",
+  "name" : "C54 Open folder with any exist folders and files",
+  "time" : {
+    "start" : 1654595953113,
+    "stop" : 1654595962827,
+    "duration" : 9714
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "341b1467e6f865b6",
+  "name" : "C40 Add comment to folder using the context menu",
+  "time" : {
+    "start" : 1654595926906,
+    "stop" : 1654595931274,
+    "duration" : 4368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8718417f0382226a",
+  "name" : "C51 Upload Small SVG file to folder",
+  "time" : {
+    "start" : 1654595773950,
+    "stop" : 1654595781662,
+    "duration" : 7712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3ca549e01bafcbb",
+  "name" : "C208 Create the note using the plus button",
+  "time" : {
+    "start" : 1654596057250,
+    "stop" : 1654596059823,
+    "duration" : 2573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4418ced3dfc45a76",
+  "name" : "C78 Download file using the context menu",
+  "time" : {
+    "start" : 1654595843755,
+    "stop" : 1654595848164,
+    "duration" : 4409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30896fc9e054af1b",
+  "name" : "C45 Move folder with file to \"DELETED\" via Contextmenu",
+  "time" : {
+    "start" : 1654595940435,
+    "stop" : 1654595946499,
+    "duration" : 6064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd314b5cb56e21ab",
+  "name" : "C38 Add color to folder using the context menu",
+  "time" : {
+    "start" : 1654595922688,
+    "stop" : 1654595926302,
+    "duration" : 3614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54e2a74588c4e380",
+  "name" : "C65 Upload any file",
+  "time" : {
+    "start" : 1654595782342,
+    "stop" : 1654595784682,
+    "duration" : 2340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98715daf96e92aa6",
+  "name" : "C50 Create children folder using the Topbar menu",
+  "time" : {
+    "start" : 1654595912913,
+    "stop" : 1654595917319,
+    "duration" : 4406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdfbe051109b9fdf",
+  "name" : "C55 Move folder B to folder A via \"drag and drop\"",
+  "time" : {
+    "start" : 1654595963480,
+    "stop" : 1654595969825,
+    "duration" : 6345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ceedac61ff8e1ce",
+  "name" : "C226 Delete file with added tag from \"DELETED\" using the context menu",
+  "time" : {
+    "start" : 1654595874321,
+    "stop" : 1654595878016,
+    "duration" : 3695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba24d17e7f932730",
+  "name" : "C37 Rename an existing folder using the context menu",
+  "time" : {
+    "start" : 1654595917891,
+    "stop" : 1654595922092,
+    "duration" : 4201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93a731b017c99138",
+  "name" : "C72 Add color of the file using the right sidebar",
+  "time" : {
+    "start" : 1654595789221,
+    "stop" : 1654595792229,
+    "duration" : 3008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fba7b18ade2ac0a",
+  "name" : "C207 Create the first note by following the link in the middle section",
+  "time" : {
+    "start" : 1654596050779,
+    "stop" : 1654596056892,
+    "duration" : 6113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78bce1b6eceffea0",
+  "name" : "Check the GhostDrive homepage title",
+  "time" : {
+    "start" : 1654595726078,
+    "stop" : 1654595731318,
+    "duration" : 5240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf1e6c84eab43c7a",
+  "name" : "C214 Delete a note",
+  "time" : {
+    "start" : 1654596085959,
+    "stop" : 1654596089081,
+    "duration" : 3122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f795b0103b44fd7b",
+  "name" : "C227 Delete file with added color from \"DELETED\" using the Topbar",
+  "time" : {
+    "start" : 1654595878029,
+    "stop" : 1654595881919,
+    "duration" : 3890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab64fa1a14bd4993",
+  "name" : "Check Term of Service link",
+  "time" : {
+    "start" : 1654595731345,
+    "stop" : 1654595734433,
+    "duration" : 3088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ae6a3033eccd4c4",
+  "name" : "C184 Deactivate the security PIN of the file using the right Sidebar",
+  "time" : {
+    "start" : 1654595815827,
+    "stop" : 1654595821785,
+    "duration" : 5958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfb33e559612d59",
+  "name" : "C97 Restore deleted folder with file from “DELETED” via Top bar",
+  "time" : {
+    "start" : 1654596019065,
+    "stop" : 1654596020754,
+    "duration" : 1689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ee87253abaed6ac",
+  "name" : "C88 Delete tag of folder via right Sidebar",
+  "time" : {
+    "start" : 1654596020782,
+    "stop" : 1654596022665,
+    "duration" : 1883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c2f0d79bb4de372",
+  "name" : "C47 Delete empty folder from \"DELETED\" via Topbar",
+  "time" : {
+    "start" : 1654595981006,
+    "stop" : 1654595985226,
+    "duration" : 4220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64bb9b0492bc5bcb",
+  "name" : "C230 Delete file with comment from \"DELETED\" using the Topbar",
+  "time" : {
+    "start" : 1654595881932,
+    "stop" : 1654595885883,
+    "duration" : 3951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37e0c825c43e5c57",
+  "name" : "C76 Download file using the Topbar",
+  "time" : {
+    "start" : 1654595839013,
+    "stop" : 1654595843171,
+    "duration" : 4158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eaec6b60c70c60f0",
+  "name" : "Check Cookie Policy link",
+  "time" : {
+    "start" : 1654595735589,
+    "stop" : 1654595736344,
+    "duration" : 755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af5e71767c421816",
+  "name" : "C42 Download folder with file",
+  "time" : {
+    "start" : 1654596027112,
+    "stop" : 1654596029316,
+    "duration" : 2204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "576e7f38d2adb8d3",
+  "name" : "C213 Download notes as DOCX",
+  "time" : {
+    "start" : 1654596078436,
+    "stop" : 1654596085652,
+    "duration" : 7216
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
