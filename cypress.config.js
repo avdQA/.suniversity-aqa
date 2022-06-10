@@ -51,7 +51,6 @@ module.exports = defineConfig({
         writeRunLog(results);
         setAllureEnvProp(results);
         setAllureCategories(results);
-        console.log(this.env.getStage.call(config));
       });
       return config;
     },

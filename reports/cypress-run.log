@@ -4,8 +4,8 @@
   =================================================
   STAGE               :: release,
   TAGS                :: @smoke,
-  started Tests at    :: 2022-06-10T13:35:57.065Z,
-  ended Tests at      :: 2022-06-10T13:36:11.335Z,
+  started Tests at    :: 2022-06-10T13:43:40.998Z,
+  ended Tests at      :: 2022-06-10T13:43:58.142Z,
   OS name             :: win32,
   OS --version        :: 10.0.22000,
   Browser             :: electron,
