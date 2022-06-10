@@ -1,0 +1,308 @@
+[
+  {
+    "description": "  Check the GhostDrive homepage",
+    "keyword": "Feature",
+    "name": "[#HomePage] Check the GhostDrive homepage",
+    "line": 2,
+    "id": "[#homepage]-check-the-ghostdrive-homepage",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@homePage",
+        "line": 1
+      }
+    ],
+    "uri": "signIn.feature",
+    "elements": [
+      {
+        "id": "[#homepage]-check-the-ghostdrive-homepage;check-the-ghostdrive-homepage-title",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Check the GhostDrive homepage title",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@homePage",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be on the SignInCrypto web page",
+            "result": {
+              "status": "passed",
+              "duration": 2882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User should be on the Home web page",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User should be on the Main web page and signed as owner",
+            "result": {
+              "status": "failed",
+              "duration": 6173000000,
+              "error_message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `workspaces`. No request ever occurred.\n    at cypressErr (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:174972:18)\n    at Object.errByPath (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:175041:10)\n    at checkForXhr (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:160461:92)\n    at https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:160484:28\nFrom previous event:\n    at whenStable (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:166932:65)\n    at https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:166387:14\nFrom previous event:\n    at $Cy.retry (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:166367:76)\n    at checkForXhr (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:160483:17)\n    at https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:160484:28\nFrom previous event:\n    at https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:166941:60\n    at $Cy.isStable (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:166922:7)\n    at HTMLIFrameElement.<anonymous> (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:171541:16)\n    at HTMLIFrameElement.dispatch (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:109912:27)\n    at elemData.handle (https://dev.ghostdrive.com/__cypress/runner/cypress_runner.js:109720:28)\nFrom Your Spec Code:\n    at Context.eval (https://dev.ghostdrive.com/__cypress/tests?p=cypress\\e2e\\0_HomePage\\signIn.feature:399:6)\n    at Context.resolveAndRunStepDefinition (https://dev.ghostdrive.com/__cypress/tests?p=cypress\\e2e\\0_HomePage\\signIn.feature:14282:29)\n    at Context.eval (https://dev.ghostdrive.com/__cypress/tests?p=cypress\\e2e\\0_HomePage\\signIn.feature:13603:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "In the title I see the text \"Ghost Drive\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "[#homepage]-check-the-ghostdrive-homepage;check-term-of-service-link",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Check Term of Service link",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@homePage",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be on the SignInCrypto web page",
+            "result": {
+              "status": "passed",
+              "duration": 1237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on \"Customer Terms of Service\" link",
+            "result": {
+              "status": "passed",
+              "duration": 2378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the \"/terms-of-service\" path in the browser's address bar",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "In the title I see the text \"GhostDrive | Terms of Services\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I should see the \"Terms and Conditions\" text on the active page",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "[#homepage]-check-the-ghostdrive-homepage;check-privacy-policy-link",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Check Privacy Policy link",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@homePage",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be on the SignInCrypto web page",
+            "result": {
+              "status": "passed",
+              "duration": 632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click on \"Privacy Policy\" link",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should see the \"/privacy\" path in the browser's address bar",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "In the title I see the text \"GhostDrive | Policy and Privacy\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I should see the \"Privacy Policy\" text on the active page",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "[#homepage]-check-the-ghostdrive-homepage;check-cookie-policy-link",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Check Cookie Policy link",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@homePage",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be on the SignInCrypto web page",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I click on \"Cookie Policy\" link",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see the \"/privacy\" path in the browser's address bar",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "In the title I see the text \"GhostDrive | Policy and Privacy\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I should see the \"Privacy Policy\" text on the active page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
