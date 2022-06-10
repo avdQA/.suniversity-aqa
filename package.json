@@ -1,0 +1,23 @@
+{
+  "name": "gd-test-allure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avdQA/.suniversity-aqa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avdQA/.suniversity-aqa/issues"
+  },
+  "homepage": "https://github.com/avdQA/.suniversity-aqa#readme",
+  "devDependencies": {
+    "cypress": "^10.0.3"
+  }
+}
