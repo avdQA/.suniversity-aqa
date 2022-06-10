@@ -1,0 +1,41 @@
+[ {
+  "uid" : "34a1aa0d8513fca1",
+  "name" : "Check Term of Service link",
+  "time" : {
+    "start" : 1654866531042,
+    "stop" : 1654866534080,
+    "duration" : 3038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f41f1825bd1a535",
+  "name" : "Check the GhostDrive homepage title",
+  "time" : {
+    "start" : 1654866525520,
+    "stop" : 1654866531009,
+    "duration" : 5489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cda931bf2db18241",
+  "name" : "Check Cookie Policy link",
+  "time" : {
+    "start" : 1654866534964,
+    "stop" : 1654866535737,
+    "duration" : 773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a62ce52698b945f",
+  "name" : "Check Privacy Policy link",
+  "time" : {
+    "start" : 1654866534115,
+    "stop" : 1654866534944,
+    "duration" : 829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

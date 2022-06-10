@@ -4,12 +4,14 @@ const cucumber = require("cypress-cucumber-preprocessor").default;
 const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 const cucumberHTMLReport = require("multiple-cucumber-html-reporter");
 
-const CY_RUN_LOG_PATH = `.artifacts`;
+const CY_RUN_ARTIFACTS = `.artifacts`;
+const CY_RUN_REPORTS_PATH = `reports`;
 const CY_RUN_LOG_FILE_NAME = `cypress-run.log`;
+const ALLURE_RESULTS_PATH = ".artifacts/allure-results";
 const ALLURE_ENVPROP_FILE_NAME = "environment.properties";
 const ALLURE_CATEGORY_FILE_NAME = "categories.json";
 const CUCUMBER_HTML_REPORT_JSON_DIR = ".artifacts/run-results/cucumber-json";
-const CUCUMBER_HTML_REPORT_PATH = ".artifacts/html-report";
+const CUCUMBER_HTML_REPORT_PATH = `${CY_RUN_REPORTS_PATH}/html-report`;
 const CYPRESS_SPEC_PATTERN = "cypress/e2e/**/*.feature";
 const CYPRESS_EXCLUDE_SPEC_PATTERN = "*.js";
 
@@ -18,14 +20,26 @@ module.exports = defineConfig({
   viewportWidth: 1366,
   increasedRequestTimeout: 5000,
   trashAssetsBeforeRuns: true,
-  downloadsFolder: `${CY_RUN_LOG_PATH}/downloads`,
-  screenshotsFolder: `${CY_RUN_LOG_PATH}/screenshots`,
-  videosFolder: `${CY_RUN_LOG_PATH}/videos`,
+  downloadsFolder: `${CY_RUN_ARTIFACTS}/downloads`,
+  screenshotsFolder: `${CY_RUN_ARTIFACTS}/screenshots`,
+  videosFolder: `${CY_RUN_ARTIFACTS}/videos`,
   screenshotOnRunFailure: true,
   video: false,
   videoUploadOnPasses: false,
   reporter: "spec",
   chromeWebSecurity: false,
+  env: {
+    STAGE: "dev",
+    getStage() {
+      return this.env.STAGE;
+    },
+    TAGS: "@smoke",
+    allure: false,
+    allureResultsPath: `${ALLURE_RESULTS_PATH}`,
+    allureLogCypress: true,
+    allureAttachRequests: true,
+    allureOmitPreviousAttemptScreenshots: true,
+  },
   e2e: {
     specPattern: CYPRESS_SPEC_PATTERN,
     excludeSpecPattern: CYPRESS_EXCLUDE_SPEC_PATTERN,
@@ -37,6 +51,7 @@ module.exports = defineConfig({
         writeRunLog(results);
         setAllureEnvProp(results);
         setAllureCategories(results);
+        console.log(config.env.getStage);
       });
       return config;
     },
@@ -147,7 +162,7 @@ function writeRunLog(results) {
 
   reports >> http://ghostdrive-qa-allure.s3-website-us-east-1.amazonaws.com/
   `;
-  writingToFile(CY_RUN_TXT, `${CY_RUN_LOG_PATH}/${CY_RUN_LOG_FILE_NAME}`);
+  writingToFile(CY_RUN_TXT, `${CY_RUN_REPORTS_PATH}/${CY_RUN_LOG_FILE_NAME}`);
 }
 
 function setAllureEnvProp(results) {

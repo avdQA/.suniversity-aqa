@@ -1,0 +1,25 @@
+[ {
+  "values" : [ "\"Automated testing of GhostDrive WEB Application\"" ],
+  "name" : "Project.Name"
+}, {
+  "values" : [ "release" ],
+  "name" : "STAGE"
+}, {
+  "values" : [ "electron" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "100.0.4896.75" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "@smoke" ],
+  "name" : "TAGS"
+}, {
+  "values" : [ "win32" ],
+  "name" : "OS.Name"
+}, {
+  "values" : [ "10.0.22000" ],
+  "name" : "OS.Version"
+}, {
+  "values" : [ "10.0.3" ],
+  "name" : "Cypress.Version"
+} ]
