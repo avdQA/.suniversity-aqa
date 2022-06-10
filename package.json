@@ -17,7 +17,11 @@
     "url": "https://github.com/avdQA/.suniversity-aqa/issues"
   },
   "homepage": "https://github.com/avdQA/.suniversity-aqa#readme",
-  "devDependencies": {
-    "cypress": "^10.0.3"
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "allure-commandline": "^2.17.2",
+    "cypress": "^10.0.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^1.21.2"
   }
 }
