@@ -4,13 +4,13 @@ const cucumber = require("cypress-cucumber-preprocessor").default;
 const allureWriter = require("@shelex/cypress-allure-plugin/writer");
 const cucumberHTMLReport = require("multiple-cucumber-html-reporter");
 
-const CY_RUN_ARTIFACTS = `.artifacts`;
+const CY_RUN_ARTIFACTS = `artifacts`;
 const CY_RUN_REPORTS_PATH = `reports`;
 const CY_RUN_LOG_FILE_NAME = `cypress-run.log`;
-const ALLURE_RESULTS_PATH = ".artifacts/allure-results";
+const ALLURE_RESULTS_PATH = `${CY_RUN_ARTIFACTS}/allure-results`;
 const ALLURE_ENVPROP_FILE_NAME = "environment.properties";
 const ALLURE_CATEGORY_FILE_NAME = "categories.json";
-const CUCUMBER_HTML_REPORT_JSON_DIR = ".artifacts/run-results/cucumber-json";
+const CUCUMBER_HTML_REPORT_JSON_DIR = `${CY_RUN_ARTIFACTS}/run-results/cucumber-json`;
 const CUCUMBER_HTML_REPORT_PATH = `${CY_RUN_REPORTS_PATH}/html-report`;
 const CYPRESS_SPEC_PATTERN = "cypress/e2e/**/*.feature";
 const CYPRESS_EXCLUDE_SPEC_PATTERN = "*.js";

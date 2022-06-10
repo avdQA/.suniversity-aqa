@@ -3,7 +3,7 @@ module.exports = {
   stepDefinitions: "cypress/e2e",
   cucumberJson: {
     generate: true,
-    outputFolder: ".artifacts/run-results/cucumber-json",
+    outputFolder: "artifacts/run-results/cucumber-json",
     filePrefix: "",
     fileSuffix: ".cucumber",
   },

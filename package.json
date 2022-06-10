@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "npx cypress open",
     "cy:run:allure": "npx cypress run -e allure=true",
-    "allure:generate": "npx allure generate .artifacts/allure-results -o reports/allure-report --clean"
+    "allure:generate": "npx allure generate artifacts/allure-results -o reports/allure-report --clean"
   },
   "repository": {
     "type": "git",
