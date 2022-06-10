@@ -31,7 +31,7 @@ module.exports = defineConfig({
   env: {
     STAGE: "dev",
     getStage() {
-      return this.env.STAGE;
+      return this.STAGE;
     },
     TAGS: "@smoke",
     allure: false,
@@ -51,7 +51,7 @@ module.exports = defineConfig({
         writeRunLog(results);
         setAllureEnvProp(results);
         setAllureCategories(results);
-        console.log(config.env.getStage);
+        console.log(this.env.getStage.call(config));
       });
       return config;
     },

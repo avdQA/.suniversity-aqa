@@ -3,70 +3,70 @@
   "name" : "packages",
   "children" : [ {
     "name" : "Check the GhostDrive homepage title",
-    "uid" : "2f41f1825bd1a535",
+    "uid" : "20e0307ee8409390",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1654866525520,
-      "stop" : 1654866531009,
-      "duration" : 5489
+      "start" : 1654868159805,
+      "stop" : 1654868166700,
+      "duration" : 6895
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 9,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check Term of Service link",
-    "uid" : "34a1aa0d8513fca1",
+    "uid" : "e7b006227ba6cc19",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1654866531042,
-      "stop" : 1654866534080,
-      "duration" : 3038
+      "start" : 1654868166742,
+      "stop" : 1654868169669,
+      "duration" : 2927
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 9,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check Privacy Policy link",
-    "uid" : "3a62ce52698b945f",
+    "uid" : "ad6322fbd6438b9a",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1654866534115,
-      "stop" : 1654866534944,
-      "duration" : 829
+      "start" : 1654868169701,
+      "stop" : 1654868170503,
+      "duration" : 802
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 9,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check Cookie Policy link",
-    "uid" : "cda931bf2db18241",
+    "uid" : "684cde4853c701ec",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1654866534964,
-      "stop" : 1654866535737,
-      "duration" : 773
+      "start" : 1654868170525,
+      "stop" : 1654868171295,
+      "duration" : 770
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 9,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   } ]

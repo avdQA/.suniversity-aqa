@@ -1,0 +1,658 @@
+{
+  "uid" : "20e0307ee8409390",
+  "name" : "Check the GhostDrive homepage title",
+  "fullName" : "Check the GhostDrive homepage title",
+  "historyId" : "ee7959f0b76acb5878a7999ab20e9ed7",
+  "time" : {
+    "start" : 1654868159805,
+    "stop" : 1654868166700,
+    "duration" : 6895
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1654868159809,
+        "stop" : 1654868159813,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log [ActivePage set null] >_ is done.",
+        "time" : {
+          "start" : 1654868159810,
+          "stop" : 1654868159813,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1654868159813,
+        "stop" : 1654868159814,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "log [Before Sign IN ????????] >_",
+      "time" : {
+        "start" : 1654868159816,
+        "stop" : 1654868159817,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given User should be on the SignInCrypto web page",
+      "time" : {
+        "start" : 1654868159825,
+        "stop" : 1654868164026,
+        "duration" : 4201
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /sign-in-crypto",
+        "time" : {
+          "start" : 1654868159825,
+          "stop" : 1654868164023,
+          "duration" : 4198
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Given User should be on the Home web page",
+      "time" : {
+        "start" : 1654868164026,
+        "stop" : 1654868164593,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1654868164026,
+          "stop" : 1654868164590,
+          "duration" : 564
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://in.hotjar.com/api/v2/client/sites/2724270/visit-data?sv=6",
+        "time" : {
+          "start" : 1654868164590,
+          "stop" : 1654868164590,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "And User should be on the Main web page and signed as owner",
+      "time" : {
+        "start" : 1654868164593,
+        "stop" : 1654868166691,
+        "duration" : 2098
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "getActiveUser",
+        "time" : {
+          "start" : 1654868164595,
+          "stop" : 1654868164595,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "setTokenToLocalStorage (\"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTMzMzAwMzMsImV4cCI6MTY4NDg2NjAzMywicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoieHh4IiwidXNlcl9zZXNzaW9uX3V1aWQiOiI2YWEwYTRmMi02ODMxLTQyMjktODI4My03MmViOGIzMDU1OWIiLCJ3b3Jrc3BhY2VfaWQiOjc4NH0.NDcZEfcdSkW7eRmqhUJ2lOiPtvMWwnjjuVLEPSISBcrdoMjBlw6-6o0Vy6s8MO78ld8bKEPiACUNoHjNc5SSouDtnP143e5T0BqqaP_1Glm_d8NfgjW-5KUDLCdKj_2jVBQzbUD2Ah6oyEJTw93xkKNGggKWi3ScHGrwTEpBU6EHw32Tnog2BtLMLIXbzuoSVxOIVO-AypvMQb1SXchDf9GvhrFsvwNM1nRy5ZISnkk3lwRXDZNuX4Z401LaemeRPL8OOUuXxD0SVMpIwYPGlaZBbVJKtV0bYyvmpd_zS7wp0ohvAekwHE4RO4IEwyJIU3Wg2qCCGmph_Sv1Zf3wvFyboNHRyvMGeh1v90fKs8zecMka_b7-QYLuhSh8p8xACwIublkPkF4hG0iOdNb1JFGhMAmsxlV41IV6e4uuN06H1ek4cRPkK77bPMaLbu52KDu_bijKaK7hZd8LvOD8_KBctFzSJqy0N-AFfbVW3Iajkv24zQwZEAja0D3EjgCtP9DHT9pXkPdRQV2wtMQIvtGNmJTnd14CICMOBFkWsjzJnHg9FDwDpEXjMfa98j3Qf8OE8TMEas14FqwdAqps7qxLm0DxDKz2hhzv52SFgcKOxc5ZP9Ee_3-RfmJ01Yfk0bvcEoSqGoYtGv-2zq-oSg_iBVc3Ti8TvcGOOxgvC3M\")",
+        "time" : {
+          "start" : 1654868164595,
+          "stop" : 1654868164595,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"/api/me\")",
+        "time" : {
+          "start" : 1654868164595,
+          "stop" : 1654868164613,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"me\")",
+        "time" : {
+          "start" : 1654868164613,
+          "stop" : 1654868164613,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"/api/user/workspaces\")",
+        "time" : {
+          "start" : 1654868164613,
+          "stop" : 1654868164619,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"workspaces\")",
+        "time" : {
+          "start" : 1654868164619,
+          "stop" : 1654868164619,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "visit /main",
+        "time" : {
+          "start" : 1654868164619,
+          "stop" : 1654868164909,
+          "duration" : 290
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://in.hotjar.com/api/v2/client/sites/2724270/visit-data?sv=6",
+        "time" : {
+          "start" : 1654868164909,
+          "stop" : 1654868164909,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/me",
+        "time" : {
+          "start" : 1654868164909,
+          "stop" : 1654868164909,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "wait @workspaces",
+        "time" : {
+          "start" : 1654868164909,
+          "stop" : 1654868166688,
+          "duration" : 1779
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://in.hotjar.com/api/v2/client/sites/2724270/visit-data?sv=6",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://ws37.hotjar.com/api/v2/sites/2724270/recordings/content",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.stage.ghostdrive.com/api/notifications?read=0&page=1",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/user/workspaces",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/tags.json",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/colors",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/notifications?read=1&page=1",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.stage.ghostdrive.com/api/files?page=1",
+        "time" : {
+          "start" : 1654868166688,
+          "stop" : 1654868166688,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 18,
+      "hasContent" : true
+    }, {
+      "name" : "Then In the title I see the text \"Ghost Drive\"",
+      "time" : {
+        "start" : 1654868166691,
+        "stop" : 1654868166700,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "title",
+        "time" : {
+          "start" : 1654868166692,
+          "stop" : 1654868166699,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **Ghost Drive** to deeply equal **Ghost Drive**",
+        "time" : {
+          "start" : 1654868166699,
+          "stop" : 1654868166699,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Ghost Drive"
+        }, {
+          "name" : "expected",
+          "value" : "Ghost Drive"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1654868166721,
+        "stop" : 1654868166722,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "deleteItemFinally (\"undefined\"; \"undefined\"; \"undefined\"; \"undefined\")",
+        "time" : {
+          "start" : 1654868166722,
+          "stop" : 1654868166722,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1654868166723,
+        "stop" : 1654868166724,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 34,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "[#HomePage] Check the GhostDrive homepage"
+  }, {
+    "name" : "feature",
+    "value" : "[#HomePage] Check the GhostDrive homepage"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "homePage"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "homePage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ab30f6960e683d21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654867377550,
+        "stop" : 1654867382520,
+        "duration" : 4970
+      }
+    }, {
+      "uid" : "c8322eb3553b455e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654867248946,
+        "stop" : 1654867254400,
+        "duration" : 5454
+      }
+    }, {
+      "uid" : "5345843df0d5cf6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654867190848,
+        "stop" : 1654867196654,
+        "duration" : 5806
+      }
+    }, {
+      "uid" : "14023e20e4cb0c61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654867127849,
+        "stop" : 1654867133705,
+        "duration" : 5856
+      }
+    }, {
+      "uid" : "9e8e612c5ce115fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654866525520,
+        "stop" : 1654866531009,
+        "duration" : 5489
+      }
+    }, {
+      "uid" : "850e492e9ee6190d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654866442740,
+        "stop" : 1654866446983,
+        "duration" : 4243
+      }
+    }, {
+      "uid" : "2f6e86f6dfbe98a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654866017865,
+        "stop" : 1654866021965,
+        "duration" : 4100
+      }
+    }, {
+      "uid" : "9c7b181be338e308",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654865332715,
+        "stop" : 1654865337184,
+        "duration" : 4469
+      }
+    }, {
+      "uid" : "4d006eeef4ce2739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654864718148,
+        "stop" : 1654864723020,
+        "duration" : 4872
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "regression", "smoke", "homePage" ]
+  },
+  "source" : "20e0307ee8409390.json",
+  "parameterValues" : [ ]
+}

@@ -2,59 +2,42 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "Check Privacy Policy link",
-    "uid" : "8b185b03b6fe45e4",
+    "name" : "Check Cookie Policy link",
+    "uid" : "44d89759f04dfd02",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654864725948,
-      "stop" : 1654864726615,
-      "duration" : 667
+      "start" : 1654867258279,
+      "stop" : 1654867259147,
+      "duration" : 868
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
     "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check Privacy Policy link",
-    "uid" : "7fcf1f5df4be3ac2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654866025033,
-      "stop" : 1654866025977,
-      "duration" : 944
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check Privacy Policy link",
-    "uid" : "3a62ce52698b945f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654866534115,
-      "stop" : 1654866534944,
-      "duration" : 829
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 4,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check Term of Service link",
-    "uid" : "34a1aa0d8513fca1",
+    "uid" : "36a125dd6ec55e86",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866022006,
+      "stop" : 1654866025002,
+      "duration" : 2996
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "17c6dba66d3f0af9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -66,12 +49,318 @@
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "9a4f0305eb3679b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654865340120,
+      "stop" : 1654865340789,
+      "duration" : 669
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Cookie Policy link",
+    "uid" : "684cde4853c701ec",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868170525,
+      "stop" : 1654868171295,
+      "duration" : 770
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Check the GhostDrive homepage title",
-    "uid" : "1ce812cbf4039f65",
+    "uid" : "2f6e86f6dfbe98a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866017865,
+      "stop" : 1654866021965,
+      "duration" : 4100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "42cf18d827ddfd62",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654865337220,
+      "stop" : 1654865340086,
+      "duration" : 2866
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "9c016678297e55ef",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866534115,
+      "stop" : 1654866534944,
+      "duration" : 829
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "4627c9c884245687",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866447026,
+      "stop" : 1654866449905,
+      "duration" : 2879
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "f342847e07050667",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867199671,
+      "stop" : 1654867200493,
+      "duration" : 822
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the GhostDrive homepage title",
+    "uid" : "c8322eb3553b455e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867248946,
+      "stop" : 1654867254400,
+      "duration" : 5454
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Cookie Policy link",
+    "uid" : "3336187f237fa43",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866450811,
+      "stop" : 1654866451415,
+      "duration" : 604
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the GhostDrive homepage title",
+    "uid" : "9e8e612c5ce115fb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866525520,
+      "stop" : 1654866531009,
+      "duration" : 5489
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "bb606d816bac2ed9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867385337,
+      "stop" : 1654867386484,
+      "duration" : 1147
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Cookie Policy link",
+    "uid" : "e939efa0604f2ab4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654864726637,
+      "stop" : 1654864727290,
+      "duration" : 653
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "668707facb49ba9a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867254441,
+      "stop" : 1654867257397,
+      "duration" : 2956
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "e69585c5475c726",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866449933,
+      "stop" : 1654866450790,
+      "duration" : 857
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "ad6322fbd6438b9a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868169701,
+      "stop" : 1654868170503,
+      "duration" : 802
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Cookie Policy link",
+    "uid" : "a9029f27055e8da4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866534964,
+      "stop" : 1654866535737,
+      "duration" : 773
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Cookie Policy link",
+    "uid" : "37dc87aa1459d960",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867386506,
+      "stop" : 1654867387148,
+      "duration" : 642
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "e7b006227ba6cc19",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868166742,
+      "stop" : 1654868169669,
+      "duration" : 2927
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the GhostDrive homepage title",
+    "uid" : "850e492e9ee6190d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -88,115 +377,30 @@
     "parameters" : [ ]
   }, {
     "name" : "Check the GhostDrive homepage title",
-    "uid" : "2f41f1825bd1a535",
+    "uid" : "20e0307ee8409390",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654866525520,
-      "stop" : 1654866531009,
-      "duration" : 5489
+      "start" : 1654868159805,
+      "stop" : 1654868166700,
+      "duration" : 6895
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 9,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Check Term of Service link",
-    "uid" : "10713cd680432a11",
+    "name" : "Check Privacy Policy link",
+    "uid" : "9d7f96be53b9199c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654866447026,
-      "stop" : 1654866449905,
-      "duration" : 2879
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check Cookie Policy link",
-    "uid" : "cda931bf2db18241",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654866534964,
-      "stop" : 1654866535737,
-      "duration" : 773
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 4,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check Cookie Policy link",
-    "uid" : "4ea16ea70149f73e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654864726637,
-      "stop" : 1654864727290,
-      "duration" : 653
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check Cookie Policy link",
-    "uid" : "fc92dd690ebba51f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654865340812,
-      "stop" : 1654865341408,
-      "duration" : 596
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check the GhostDrive homepage title",
-    "uid" : "31f0ef454a57c61",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654866017865,
-      "stop" : 1654866021965,
-      "duration" : 4100
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check Cookie Policy link",
-    "uid" : "133d2609988a4785",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654866450811,
-      "stop" : 1654866451415,
-      "duration" : 604
+      "start" : 1654867136734,
+      "stop" : 1654867137555,
+      "duration" : 821
     },
     "flaky" : false,
     "newFailed" : false,
@@ -207,13 +411,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Check Term of Service link",
-    "uid" : "daef53f6a1ebef50",
+    "uid" : "74648f1f75bfcb55",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654865337220,
-      "stop" : 1654865340086,
-      "duration" : 2866
+      "start" : 1654867196685,
+      "stop" : 1654867199643,
+      "duration" : 2958
     },
     "flaky" : false,
     "newFailed" : false,
@@ -224,7 +428,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Check the GhostDrive homepage title",
-    "uid" : "c6181ea0cbf77515",
+    "uid" : "4d006eeef4ce2739",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -240,8 +444,110 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
+    "name" : "Check the GhostDrive homepage title",
+    "uid" : "ab30f6960e683d21",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867377550,
+      "stop" : 1654867382520,
+      "duration" : 4970
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "d51520d10a6f3940",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867382551,
+      "stop" : 1654867385308,
+      "duration" : 2757
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "55fd216297e4c642",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867257425,
+      "stop" : 1654867258258,
+      "duration" : 833
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "Check Cookie Policy link",
-    "uid" : "848309824b6b792b",
+    "uid" : "b3dd736675459be0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867137577,
+      "stop" : 1654867138434,
+      "duration" : 857
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the GhostDrive homepage title",
+    "uid" : "14023e20e4cb0c61",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867127849,
+      "stop" : 1654867133705,
+      "duration" : 5856
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check the GhostDrive homepage title",
+    "uid" : "5345843df0d5cf6d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867190848,
+      "stop" : 1654867196654,
+      "duration" : 5806
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Cookie Policy link",
+    "uid" : "a25e3da925ed173c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -257,14 +563,31 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Check Term of Service link",
-    "uid" : "89f8169e377dbd3e",
+    "name" : "Check Cookie Policy link",
+    "uid" : "6d37e427dadade5a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654864723062,
-      "stop" : 1654864725914,
-      "duration" : 2852
+      "start" : 1654867200512,
+      "stop" : 1654867201356,
+      "duration" : 844
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "bc01a004a293cc42",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654867133751,
+      "stop" : 1654867136713,
+      "duration" : 2962
     },
     "flaky" : false,
     "newFailed" : false,
@@ -275,30 +598,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Check Privacy Policy link",
-    "uid" : "25b6daf9d26c7b6f",
+    "uid" : "b0994ac36d78ada2",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654866449933,
-      "stop" : 1654866450790,
-      "duration" : 857
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Check Term of Service link",
-    "uid" : "45d13dc59f6888e4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1654866022006,
-      "stop" : 1654866025002,
-      "duration" : 2996
+      "start" : 1654864725948,
+      "stop" : 1654864726615,
+      "duration" : 667
     },
     "flaky" : false,
     "newFailed" : false,
@@ -309,7 +615,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Check the GhostDrive homepage title",
-    "uid" : "810629e5616dfd25",
+    "uid" : "9c7b181be338e308",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -325,14 +631,48 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Check Privacy Policy link",
-    "uid" : "96dfee4ac07c5653",
+    "name" : "Check Cookie Policy link",
+    "uid" : "223f851218384150",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654865340120,
-      "stop" : 1654865340789,
-      "duration" : 669
+      "start" : 1654865340812,
+      "stop" : 1654865341408,
+      "duration" : 596
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Privacy Policy link",
+    "uid" : "7f88d66b8c05984f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654866025033,
+      "stop" : 1654866025977,
+      "duration" : 944
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check Term of Service link",
+    "uid" : "c1b3cd3bc8b48f23",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654864723062,
+      "stop" : 1654864725914,
+      "duration" : 2852
     },
     "flaky" : false,
     "newFailed" : false,
