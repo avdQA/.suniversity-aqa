@@ -1,36 +1,42 @@
-name: Artifacts
+name: cypress-test
 on:
   push:
     branches:
       - test-allure-report
 
 jobs:
-  cypress-run:
+  cypress-test:
+    name: testing WEB UI Ghost Drive Application
     runs-on: ubuntu-latest
-    name: Artifacts
     steps:
       - uses: actions/checkout@v2
         with:
           ref: test-allure-report
-      - uses: cypress-io/github-action@v4
+      - name: Install dependencies
+        uses: cypress-io/github-action@v4
         with:
-          ref: test-allure-report
-      # after the test run completes
-      # store videos and any screenshots
-      # NOTE: screenshots will be generated only if E2E test failed
-      # thus we store screenshots only on failures
-      # Alternative: create and commit an empty cypress/screenshots folder
-      # to always have something to upload
-      - uses: actions/upload-artifact@v2
+          # just perform install
+          runTests: false
+      - run: yarn lint
+      - name: Run e2e tests
+        uses: cypress-io/github-action@v4
+        with:
+          # we have already installed all dependencies above
+          install: false
+          # Cypress tests and config file are in "e2e" folder
+          command: |
+            npm run cy:run:allure
+            npm run allure:generate
+      - name: Get artifacts-screenshots
+        uses: actions/upload-artifact@v2
         if: failure()
         with:
           name: cypress-screenshots
           path: artifacts/screenshots
-          ref: test-allure-report
       # Test run video was always captured, so this action uses "always()" condition
-      - uses: actions/upload-artifact@v2
+      - name: Get artifacts-video
+        uses: actions/upload-artifact@v2
         if: always()
         with:
           name: cypress-videos
           path: artifacts/videos
-          ref: test-allure-report
