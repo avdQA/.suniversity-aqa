@@ -6,13 +6,15 @@ on:
 
 jobs:
   cypress-run:
-    with:
-      ref: test-allure-report
     runs-on: ubuntu-latest
     name: Artifacts
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: test-allure-report
       - uses: cypress-io/github-action@v4
+        with:
+          ref: test-allure-report
       # after the test run completes
       # store videos and any screenshots
       # NOTE: screenshots will be generated only if E2E test failed
@@ -24,9 +26,11 @@ jobs:
         with:
           name: cypress-screenshots
           path: artifacts/screenshots
+          ref: test-allure-report
       # Test run video was always captured, so this action uses "always()" condition
       - uses: actions/upload-artifact@v2
         if: always()
         with:
           name: cypress-videos
           path: artifacts/videos
+          ref: test-allure-report
