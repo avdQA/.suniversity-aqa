@@ -17,6 +17,7 @@ jobs:
         with:
           # just perform install
           runTests: false
+          command: npm install
       - run: yarn lint
       - name: Run e2e tests
         uses: cypress-io/github-action@v4
