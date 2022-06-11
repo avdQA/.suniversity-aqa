@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: my-branch
+          ref: test-allure-report
       - uses: cypress-io/github-action@v4
       # after the test run completes
       # store videos and any screenshots
