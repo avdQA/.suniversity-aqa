@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - test-allure-report
+  workflow_run:
+    branches:
+      - test-allure-report
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
