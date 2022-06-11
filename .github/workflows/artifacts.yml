@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - test-allure-report
-  workflow_run:
-    branches:
-      - test-allure-report
 
 jobs:
   cypress-run:
@@ -13,6 +10,8 @@ jobs:
     name: Artifacts
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: my-branch
       - uses: cypress-io/github-action@v4
       # after the test run completes
       # store videos and any screenshots
