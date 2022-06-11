@@ -6,12 +6,12 @@ on:
 
 jobs:
   cypress-run:
+    with:
+      ref: test-allure-report
     runs-on: ubuntu-latest
     name: Artifacts
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: test-allure-report
       - uses: cypress-io/github-action@v4
       # after the test run completes
       # store videos and any screenshots
