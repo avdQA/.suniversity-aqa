@@ -56,7 +56,7 @@ jobs:
           # we have already installed all dependencies above
           install: false
           # Cypress tests and config file are in "e2e" folder
-          command: npx cypress run --browser ${{ github.event.inputs.browser }} --env STAGE=${{ github.event.inputs.environment }},TAGS='${{ github.event.inputs.tags }}',allure=${{ github.event.inputs.allure-report }}
+          command: npx cypress run --browser ${{ github.event.inputs.browser }} --env STAGE="${{ github.event.inputs.environment }}",TAGS="${{ github.event.inputs.tags }}",allure=${{ github.event.inputs.allure-report }}
 
       - name: Get artifacts-screenshots
         uses: actions/upload-artifact@v2
