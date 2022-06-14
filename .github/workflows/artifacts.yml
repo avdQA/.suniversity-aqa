@@ -17,7 +17,6 @@ jobs:
         with:
           # just perform install
           runTests: false
-          command: npm install
       - name: Run e2e tests
         uses: cypress-io/github-action@v4
         with:
@@ -25,21 +24,14 @@ jobs:
           install: false
           # Cypress tests and config file are in "e2e" folder
           command: |
-            npm run cy:run:allure
-            npm run allure:generate
+            npx cypress run -e 'allure=true'
+            npx allure generate artifacts/allure-results -o reports/allure-report --clean
       - name: Get artifacts-screenshots
         uses: actions/upload-artifact@v2
         if: failure()
         with:
           name: cypress-screenshots
           path: artifacts/screenshots
-      # Test run video was always captured, so this action uses "always()" condition
-      - name: Get artifacts-video
-        uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: cypress-videos
-          path: artifacts/videos
 
   allure:
     needs: [cypress-test]
