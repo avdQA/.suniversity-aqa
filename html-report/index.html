@@ -653,7 +653,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">0.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -662,7 +662,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Failed
                             </p>
                         </td>
-                        <td class="percentage">0.00 %</td>
+                        <td class="percentage">100.00 %</td>
                     </tr>
                     
                     
@@ -720,7 +720,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">50.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -729,11 +729,21 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Failed
                             </p>
                         </td>
-                        <td class="percentage">0.00 %</td>
+                        <td class="percentage">25.00 %</td>
                     
                     
                     </tr>
                     
+                    
+                    <tr>
+                        <td>
+                            <p data-toggle="tooltip" data-placement="left" title="Scenario is skipped">
+                                <i class="fa fa-arrow-circle-right skipped-color"></i>
+                                Skipped
+                            </p>
+                        </td>
+                        <td class="percentage">25.00 %</td>
+                    </tr>
                     
                 </table>
             </td>
@@ -792,12 +802,12 @@ input#darkCheck:checked ~ label>svg#moon {
                 
                 <tr>
                     <td class="meta-data-title">Execution Start Time</td>
-                    <td class="meta-data-data">2022-06-14T19:22:19.875Z</td>
+                    <td class="meta-data-data">2022-06-14T19:33:33.346Z</td>
                 </tr>
                 
                 <tr>
                     <td class="meta-data-title">Execution End Time</td>
-                    <td class="meta-data-data">2022-06-14T19:22:36.308Z</td>
+                    <td class="meta-data-data">2022-06-14T19:33:51.934Z</td>
                 </tr>
                 
             
@@ -858,6 +868,8 @@ input#darkCheck:checked ~ label>svg#moon {
                         <th>Failed</th>
                         
                         
+                        <th>Skip</th>
+                        
                         
                         
                     </tr>
@@ -867,9 +879,11 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                     <tr>
                         <td>
-                            <a href="features/29817f69-8e99-40c1-a104-faa4d75953fb---homepage--check-the-ghostdrive-homepage.html">[#HomePage] Check the GhostDrive homepage</a>
+                            <a href="features/197190d0-810f-407b-b4b9-08fa437bc24b---homepage--check-the-ghostdrive-homepage.html">[#HomePage] Check the GhostDrive homepage</a>
                         </td>
                         <td class="text-center">
+                            
+                            
                             
                             
                             
@@ -916,8 +930,8 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                             
                             <i class="fa fa-tags fa-lg" data-toggle="tooltip" data-placement="top"
-                               title="@smoke @regression @homePage">
-                                <span>@smoke @regression @homePage</span>
+                               title="@smoke @regression @homePage @ignore">
+                                <span>@smoke @regression @homePage @ignore</span>
                             </i>
                             
                             
@@ -929,8 +943,8 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                             
                             
-                            <i class="fa fa-check-circle passed-color fa-lg" data-toggle="tooltip" data-placement="top" title="Passed">
-                                <span>check-circle passed-color</span>
+                            <i class="fa fa-exclamation-circle failed-color fa-lg" data-toggle="tooltip" data-placement="top" title="Failed">
+                                <span>exclamation-circle failed-color</span>
                             </i>
                         </td>
                         
@@ -979,14 +993,16 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                         
                         
-                        <td>2022/06/14 19:22:36</td>
+                        <td>2022/06/14 19:33:51</td>
                         
                         
-                        <td>00:00:12.608</td>
+                        <td>00:00:11.152</td>
                         
                         <td class="text-right ">4</td>
-                        <td class="text-right ">4</td>
-                        <td class="text-right none">0</td>
+                        <td class="text-right ">2</td>
+                        <td class="text-right ">1</td>
+                        
+                        <td class="text-right ">1</td>
                         
                         
                         
@@ -1053,8 +1069,8 @@ input#darkCheck:checked ~ label>svg#moon {
                         ],
                         datasets: [{
                             data: [
-                                1,
                                 0,
+                                1,
                                 0,
                                 0,
                                 0,
@@ -1085,12 +1101,12 @@ input#darkCheck:checked ~ label>svg#moon {
                         ],
                         datasets: [{
                             data: [
-                                4,
+                                2,
+                                1,
                                 0,
                                 0,
                                 0,
-                                0,
-                                0
+                                1
                             ],
                             backgroundColor: getChartColors()
                         }]
