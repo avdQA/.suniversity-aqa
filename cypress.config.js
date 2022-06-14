@@ -30,7 +30,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   env: {
     STAGE: "dev",
-    TAGS: "@smoke",
+    TAGS: "@smoke and not @ignore",
     allure: false,
     allureResultsPath: `${ALLURE_RESULTS_PATH}`,
     allureLogCypress: true,
