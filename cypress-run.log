@@ -4,8 +4,8 @@
   =================================================
   STAGE               :: dev,
   TAGS                :: @smoke,
-  started Tests at    :: 2022-06-14T14:09:11.033Z,
-  ended Tests at      :: 2022-06-14T14:09:31.303Z,
+  started Tests at    :: 2022-06-14T14:18:53.636Z,
+  ended Tests at      :: 2022-06-14T14:19:10.752Z,
   OS name             :: linux,
   OS --version        :: Ubuntu - 20.04,
   Browser             :: chrome,
