@@ -48,7 +48,7 @@ jobs:
         #id: allure-report
         with:
           allure_results: artifacts/allure-results
-          #gh_pages: gh-pages
+          gh_pages: gd-reports
           allure_report: reports/allure-report
           allure_history: reports/allure-history
           keep_reports: 20
