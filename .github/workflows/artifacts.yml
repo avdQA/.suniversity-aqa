@@ -12,11 +12,13 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: test-allure-report
+
       - name: Install dependencies
         uses: cypress-io/github-action@v4
         with:
           # just perform install
           runTests: false
+
       - name: Run e2e tests
         uses: cypress-io/github-action@v4
         with:
@@ -24,21 +26,13 @@ jobs:
           install: false
           # Cypress tests and config file are in "e2e" folder
           command: npm run cy:run:allure
+
       - name: Get artifacts-screenshots
         uses: actions/upload-artifact@v2
         if: failure()
         with:
           name: cypress-screenshots
           path: artifacts/screenshots
-
-  allure:
-    needs: [cypress-test]
-    name: Generate Allure Report
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: test-allure-report
 
       - name: Get Allure history
         uses: actions/checkout@v2
@@ -66,3 +60,10 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+
+      - name: Deploy report to Report branch
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PUBLISH_BRANCH: gd-reports
+          PUBLISH_DIR: reports
