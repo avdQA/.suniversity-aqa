@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - test-allure-report
+    paths:
+      - "!.github/workflows/manualTestsGDWebUI.yml"
+      - ".github/workflows/autoTestsGDWebUI.yml"
 
 jobs:
   cypress-test:
