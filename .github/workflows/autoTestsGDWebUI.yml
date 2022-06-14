@@ -40,7 +40,7 @@ jobs:
         continue-on-error: true
         with:
           ref: gd-reports
-          path: gd-reports/allure-history
+          path: gd-reports
 
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
@@ -48,7 +48,7 @@ jobs:
         id: cypress-test
         with:
           allure_results: artifacts/allure-results
-          gh_pages: gd-reports
+          # gh_pages: gd-reports
           allure_report: reports/allure-report
           allure_history: reports/allure-history
           keep_reports: 20
