@@ -2,14 +2,14 @@
   =================================================
   "Automated testing of GhostDrive WEB Application"
   =================================================
-  STAGE               :: dev,
-  TAGS                :: @smoke,
-  started Tests at    :: 2022-06-14T16:41:48.192Z,
-  ended Tests at      :: 2022-06-14T16:42:06.756Z,
+  STAGE               :: release,
+  TAGS                :: @regression,
+  started Tests at    :: 2022-06-14T16:45:19.856Z,
+  ended Tests at      :: 2022-06-14T16:45:31.408Z,
   OS name             :: linux,
   OS --version        :: Ubuntu - 20.04,
-  Browser             :: chrome,
-  Browser --version   :: 102.0.5005.61,
+  Browser             :: electron,
+  Browser --version   :: 100.0.4896.75,
   Cypress --version   :: 10.1.0,
   -------------------------------------------------
   RUN RESULT 
