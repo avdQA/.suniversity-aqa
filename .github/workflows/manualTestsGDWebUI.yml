@@ -1,0 +1,93 @@
+name: Manually run of WebUI tests
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Environment to run tests against"
+        type: choice
+        required: true
+        default: "dev"
+        options:
+          - dev
+          - release
+      tags:
+        description: "Test scenario tags"
+        required: true
+        type: string
+        default: "@regression and not @ignore"
+      browser:
+        description: "Browser"
+        required: true
+        default: "electron"
+        type: choice
+        options:
+          - electron
+          - chrome
+          - firefox
+      allure-report:
+        description: "True to generate Allure-report"
+        required: true
+        type: boolean
+        default: true
+      upload-report:
+        description: "True upload to Github-Page"
+        required: true
+        type: boolean
+        default: true
+
+jobs:
+  cypress-test:
+    name: testing WEB UI Ghost Drive Application
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: test-allure-report
+
+      - name: Install dependencies
+        uses: cypress-io/github-action@v4
+        with:
+          # just perform install
+          runTests: false
+
+      - name: Run e2e tests
+        uses: cypress-io/github-action@v4
+        with:
+          # we have already installed all dependencies above
+          install: false
+          # Cypress tests and config file are in "e2e" folder
+          command: npx cypress run --browser ${{ github.event.inputs.browser }} --env STAGE='${{ github.event.inputs.environment }}',TAGS='${{ github.event.inputs.tags }}',allure=${{ github.event.inputs.allure-report }}
+
+      - name: Get artifacts-screenshots
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: artifacts/screenshots
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: ${{ github.event.inputs.allure-report }}
+        continue-on-error: true
+        with:
+          ref: gd-reports
+          path: gd-reports
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: ${{ github.event.inputs.allure-report }}
+        #id: allure-report
+        with:
+          allure_results: artifacts/allure-results
+          gh_pages: gd-reports/allure-history
+          allure_report: reports/allure-report
+          allure_history: reports/allure-history
+          keep_reports: 20
+
+      - name: Upload report to Report branch
+        if: ${{ github.event.inputs.upload-report }}
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gd-reports
+          PUBLISH_DIR: reports
