@@ -23,9 +23,7 @@ jobs:
           # we have already installed all dependencies above
           install: false
           # Cypress tests and config file are in "e2e" folder
-          command: |
-            npx cypress run -e 'allure=true'
-            npx allure generate artifacts/allure-results -o reports/allure-report --clean
+          command: npm run cy:run:allure
       - name: Get artifacts-screenshots
         uses: actions/upload-artifact@v2
         if: failure()
