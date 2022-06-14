@@ -16,7 +16,7 @@ Feature: [#HomePage] Check the GhostDrive homepage
   Scenario: Check Term of Service link
     When I click on "Customer Terms of Service" link
     # Check result
-    Then I should see the "/terms-of-service" path in the browser's address bar
+    Then I should see the "/terms-of-service-fail" path in the browser's address bar
     And In the title I see the text "GhostDrive | Terms of Services"
     And I should see the "Terms and Conditions" text on the active page
 
