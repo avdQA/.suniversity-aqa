@@ -4,8 +4,8 @@
   =================================================
   STAGE               :: dev,
   TAGS                :: @smoke and not @ignore,
-  started Tests at    :: 2022-06-14T19:33:33.346Z,
-  ended Tests at      :: 2022-06-14T19:33:51.934Z,
+  started Tests at    :: 2022-06-14T19:49:23.283Z,
+  ended Tests at      :: 2022-06-14T19:49:39.518Z,
   OS name             :: linux,
   OS --version        :: Ubuntu - 20.04,
   Browser             :: chrome,
@@ -15,9 +15,9 @@
   RUN RESULT 
   -------------------------------------------------
   total Tests         :: 4,
-  total Failed        :: 1,
-  total Passed        :: 2,
-  total Pending       :: 1,
+  total Failed        :: 0,
+  total Passed        :: 4,
+  total Pending       :: 0,
   total Skipped       :: 0,
   -------------------------------------------------
 
