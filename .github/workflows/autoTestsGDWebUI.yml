@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - test-allure-report
-    paths:
-      - "!.github/workflows/manualTestsGDWebUI.yml"
+    paths-ignore:
+      - "manualTestsGDWebUI.yml"
 
 jobs:
   cypress-test:
