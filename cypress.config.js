@@ -184,31 +184,49 @@ function setAllureCategories(results) {
   if (!existsSync(results.config.env.allureResultsPath)) console.log(`allureResultsPath :: ${results.config.env.allureResultsPath} is NOT EXIST`);
   else {
     const fileName = `${results.config.env.allureResultsPath}/${ALLURE_CATEGORY_FILE_NAME}`;
-    const ALLURE_CATEGORIES = `
-  [
-    {
-      "name": "Ignored tests", 
-      "matchedStatuses": ["skipped"] 
-    },
-    {
-      "name": "Infrastructure problems",
-      "matchedStatuses": ["broken", "failed"],
-      "messageRegex": ".*bye-bye.*" 
-    },
-    {
-      "name": "Outdated tests",
-      "matchedStatuses": ["broken"],
-      "traceRegex": ".*FileNotFoundException.*" 
-    },
-    {
-      "name": "Product defects",
-      "matchedStatuses": ["failed"]
-    },
-    {
-      "name": "Test defects",
-      "matchedStatuses": ["broken"]
-    }
-  ]`;
+    const ALLURE_CATEGORIES = `[
+      {
+        "name": "Skipped tests",
+        "messageRegex": ".*",
+        "matchedStatuses": [
+          "skipped"
+        ]
+      },
+      {
+        "name": "Element not found",
+        "traceRegex": ".*NoSuchElementError.*",
+        "matchedStatuses": [
+          "failed"
+        ]
+      },
+      {
+        "name": "Broken tests",
+        "traceRegex": "Error.*",
+        "matchedStatuses": [
+          "failed"
+        ]
+      },
+      {
+        "name": "Test defect",
+        "messageRegex": ".*Expected is not a String or a RegExp.*",
+        "matchedStatuses": [
+          "failed"
+        ]
+      },
+      {
+        "name": "Product defect",
+        "traceRegex": ".*Failed expectation.*",
+        "matchedStatuses": [
+          "failed"
+        ]
+      },
+      {
+        "name": "Passed tests",
+        "matchedStatuses": [
+          "passed"
+        ]
+      }
+    ]`;
 
     writingToFile(ALLURE_CATEGORIES, fileName);
   }
