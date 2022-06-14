@@ -48,7 +48,7 @@ jobs:
         id: cypress-test
         with:
           allure_results: artifacts/allure-results
-          gh_pages: allure-history
+          gh_pages: gd-reports/allure-history
           allure_report: reports/allure-report
           allure_history: reports/allure-history
           keep_reports: 20
