@@ -1,0 +1,25 @@
+
+  =================================================
+  "Automated testing of GhostDrive WEB Application"
+  =================================================
+  STAGE               :: dev,
+  TAGS                :: @smoke,
+  started Tests at    :: 2022-06-14T15:43:09.585Z,
+  ended Tests at      :: 2022-06-14T15:43:26.076Z,
+  OS name             :: linux,
+  OS --version        :: Ubuntu - 20.04,
+  Browser             :: chrome,
+  Browser --version   :: 102.0.5005.61,
+  Cypress --version   :: 10.1.0,
+  -------------------------------------------------
+  RUN RESULT 
+  -------------------------------------------------
+  total Tests         :: 4,
+  total Failed        :: 0,
+  total Passed        :: 4,
+  total Pending       :: 0,
+  total Skipped       :: 0,
+  -------------------------------------------------
+
+  reports >> http://ghostdrive-qa-allure.s3-website-us-east-1.amazonaws.com/
+  
