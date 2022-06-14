@@ -653,7 +653,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">0.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -667,6 +667,17 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                     
                     
+                    
+                    <tr>
+                        <td>
+                            <p data-toggle="tooltip" data-placement="left"
+                               title="Features skipped">
+                                <i class="fa fa-arrow-circle-right skipped-color"></i>
+                                Skipped
+                            </p>
+                        </td>
+                        <td class="percentage">100.00 %</td>
+                    </tr>
                     
 
                 </table>
@@ -720,7 +731,7 @@ input#darkCheck:checked ~ label>svg#moon {
                                 Passed
                             </p>
                         </td>
-                        <td class="percentage">100.00 %</td>
+                        <td class="percentage">0.00 %</td>
                     </tr>
                     <tr>
                         <td>
@@ -734,6 +745,16 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                     </tr>
                     
+                    
+                    <tr>
+                        <td>
+                            <p data-toggle="tooltip" data-placement="left" title="Scenario is skipped">
+                                <i class="fa fa-arrow-circle-right skipped-color"></i>
+                                Skipped
+                            </p>
+                        </td>
+                        <td class="percentage">100.00 %</td>
+                    </tr>
                     
                 </table>
             </td>
@@ -792,12 +813,12 @@ input#darkCheck:checked ~ label>svg#moon {
                 
                 <tr>
                     <td class="meta-data-title">Execution Start Time</td>
-                    <td class="meta-data-data">2022-06-14T16:50:59.503Z</td>
+                    <td class="meta-data-data">2022-06-14T16:54:51.140Z</td>
                 </tr>
                 
                 <tr>
                     <td class="meta-data-title">Execution End Time</td>
-                    <td class="meta-data-data">2022-06-14T16:51:15.177Z</td>
+                    <td class="meta-data-data">2022-06-14T16:54:51.293Z</td>
                 </tr>
                 
             
@@ -858,6 +879,8 @@ input#darkCheck:checked ~ label>svg#moon {
                         <th>Failed</th>
                         
                         
+                        <th>Skip</th>
+                        
                         
                         
                     </tr>
@@ -867,7 +890,7 @@ input#darkCheck:checked ~ label>svg#moon {
                     
                     <tr>
                         <td>
-                            <a href="features/71a07149-f38d-4072-b824-82993e856c3e---homepage--check-the-ghostdrive-homepage.html">[#HomePage] Check the GhostDrive homepage</a>
+                            <a href="features/62170c66-b733-4df7-be04-a03dfad74f61---homepage--check-the-ghostdrive-homepage.html">[#HomePage] Check the GhostDrive homepage</a>
                         </td>
                         <td class="text-center">
                             
@@ -929,8 +952,8 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                             
                             
-                            <i class="fa fa-check-circle passed-color fa-lg" data-toggle="tooltip" data-placement="top" title="Passed">
-                                <span>check-circle passed-color</span>
+                            <i class="fa fa-arrow-circle-right skipped-color fa-lg" data-toggle="tooltip" data-placement="top" title="Skipped">
+                                <span>arrow-circle-right skipped-color</span>
                             </i>
                         </td>
                         
@@ -979,14 +1002,16 @@ input#darkCheck:checked ~ label>svg#moon {
                             
                         
                         
-                        <td>2022/06/14 16:51:15</td>
+                        <td>2022/06/14 16:54:51</td>
                         
                         
-                        <td>00:00:12.390</td>
+                        <td>00:00:00.000</td>
                         
-                        <td class="text-right ">4</td>
                         <td class="text-right ">4</td>
                         <td class="text-right none">0</td>
+                        <td class="text-right none">0</td>
+                        
+                        <td class="text-right ">4</td>
                         
                         
                         
@@ -1053,12 +1078,12 @@ input#darkCheck:checked ~ label>svg#moon {
                         ],
                         datasets: [{
                             data: [
-                                1,
                                 0,
                                 0,
                                 0,
                                 0,
-                                0
+                                0,
+                                1
                             ],
                             backgroundColor: getChartColors()
                         }]
@@ -1085,12 +1110,12 @@ input#darkCheck:checked ~ label>svg#moon {
                         ],
                         datasets: [{
                             data: [
-                                4,
                                 0,
                                 0,
                                 0,
                                 0,
-                                0
+                                0,
+                                4
                             ],
                             backgroundColor: getChartColors()
                         }]
