@@ -30,9 +30,6 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   env: {
     STAGE: "dev",
-    getStage() {
-      return this.STAGE;
-    },
     TAGS: "@smoke",
     allure: false,
     allureResultsPath: `${ALLURE_RESULTS_PATH}`,
@@ -176,7 +173,8 @@ function setAllureEnvProp(results) {
   TAGS=${results.config.env.TAGS}
   OS.Name=${results.osName}
   OS.Version=${results.osVersion}
-  Cypress.Version=${results.cypressVersion}`;
+  Cypress.Version=${results.cypressVersion}
+  `;
 
     writingToFile(ALLURE_ENV_PROP, fileName);
   }
