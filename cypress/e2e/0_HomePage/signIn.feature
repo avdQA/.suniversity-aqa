@@ -20,7 +20,7 @@ Feature: [#HomePage] Check the GhostDrive homepage
     And In the title I see the text "GhostDrive | Terms of Services"
     And I should see the "Terms and Conditions" text on the active page
 
-  @ignore
+
   Scenario: Check Privacy Policy link
     When I click on "Privacy Policy" link
     # Check result
@@ -32,6 +32,6 @@ Feature: [#HomePage] Check the GhostDrive homepage
   Scenario: Check Cookie Policy link
     When I click on "Cookie Policy" link
     # Check result
-    Then I should see the "/privacy-wrong" path in the browser's address bar
+    Then I should see the "/privacy" path in the browser's address bar
     And In the title I see the text "GhostDrive | Policy and Privacy"
     And I should see the "Privacy Policy" text on the active page
