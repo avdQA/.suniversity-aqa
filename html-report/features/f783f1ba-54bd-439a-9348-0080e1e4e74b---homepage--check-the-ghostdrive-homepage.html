@@ -511,8 +511,12 @@ body.darkmode #features-table th
 .darkModeIcon {
     font-size: x-large;
     float: left;
-    padding-top: 18px;
+    padding-top: 12px;
     cursor: pointer;
+}
+
+.darkModeIcon:before {
+    content: '';
 }
 
 body.darkmode li:not([class])>a[id] {
@@ -553,6 +557,37 @@ body.darkmode div pre {
 
 body.darkmode span.tag {
     color: #FFD119;
+}
+
+body.darkmode .keyword {
+    color: #d2691e;
+}
+
+body.darkmode div.tags ~h1 {
+    color: #d2691e;
+}
+
+body.darkmode div.tags ~h2 {
+    color: #d2691e;
+}
+
+svg#moon, svg#sun {
+    width: 40px;
+    height: 30px;
+    fill: #ff4500;
+}
+
+input#darkCheck:checked ~ label>svg#sun {
+    display: none;
+}
+
+label>svg#moon {
+    display: none;
+}
+
+input#darkCheck:checked ~ label>svg#moon {
+    display: inline-block;
+    fill: #ffe4c4;
 }
 
         
@@ -680,7 +715,7 @@ body.darkmode span.tag {
         
             <tr>
                 <th> Total duration:</th>
-                <tr><td>00:00:08.831</td></tr>
+                <tr><td>00:00:13.222</td></tr>
             </tr>
         
     </table>
@@ -731,10 +766,10 @@ body.darkmode span.tag {
                     
                     
                     
-                    <i class="fa fa-windows fa-lg">
-                        <span>windows</span>
+                    <i class="fa fa-linux fa-lg">
+                        <span>linux</span>
                     </i>
-                    10.0.22000
+                    Ubuntu - 20.04
                 </span>
             </li>
             
@@ -839,7 +874,7 @@ body.darkmode span.tag {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:04.145</span>
+                            <span style=padding-right:5em>00:00:07.704</span>
                         </li>
                     
                 </ul>
@@ -871,7 +906,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:01.967</span>
+                                            <span class="duration">00:00:03.652</span>
                                         
                                     
 
@@ -935,7 +970,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.458</span>
+                                            <span class="duration">00:00:01.218</span>
                                         
                                     
 
@@ -999,7 +1034,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:01.710</span>
+                                            <span class="duration">00:00:02.821</span>
                                         
                                     
 
@@ -1063,7 +1098,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.010</span>
+                                            <span class="duration">00:00:00.013</span>
                                         
                                     
 
@@ -1156,7 +1191,7 @@ body.darkmode span.tag {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:03.037</span>
+                            <span style=padding-right:5em>00:00:03.062</span>
                         </li>
                     
                 </ul>
@@ -1188,7 +1223,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.507</span>
+                                            <span class="duration">00:00:00.900</span>
                                         
                                     
 
@@ -1252,7 +1287,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:02.499</span>
+                                            <span class="duration">00:00:02.122</span>
                                         
                                     
 
@@ -1316,7 +1351,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.007</span>
+                                            <span class="duration">00:00:00.009</span>
                                         
                                     
 
@@ -1380,7 +1415,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.005</span>
+                                            <span class="duration">00:00:00.007</span>
                                         
                                     
 
@@ -1444,7 +1479,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.019</span>
+                                            <span class="duration">00:00:00.024</span>
                                         
                                     
 
@@ -1537,7 +1572,7 @@ body.darkmode span.tag {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:00.976</span>
+                            <span style=padding-right:5em>00:00:01.193</span>
                         </li>
                     
                 </ul>
@@ -1569,7 +1604,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.528</span>
+                                            <span class="duration">00:00:00.948</span>
                                         
                                     
 
@@ -1633,7 +1668,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.435</span>
+                                            <span class="duration">00:00:00.229</span>
                                         
                                     
 
@@ -1697,7 +1732,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.003</span>
+                                            <span class="duration">00:00:00.004</span>
                                         
                                     
 
@@ -1825,7 +1860,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.007</span>
+                                            <span class="duration">00:00:00.009</span>
                                         
                                     
 
@@ -1918,7 +1953,7 @@ body.darkmode span.tag {
                     
                         <li>
                             <span style="font-size:1.2em"> Duration:</span>
-                            <span style=padding-right:5em>00:00:00.673</span>
+                            <span style=padding-right:5em>00:00:01.263</span>
                         </li>
                     
                 </ul>
@@ -1950,7 +1985,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.469</span>
+                                            <span class="duration">00:00:00.984</span>
                                         
                                     
 
@@ -2014,7 +2049,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.191</span>
+                                            <span class="duration">00:00:00.261</span>
                                         
                                     
 
@@ -2078,7 +2113,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.003</span>
+                                            <span class="duration">00:00:00.005</span>
                                         
                                     
 
@@ -2206,7 +2241,7 @@ body.darkmode span.tag {
 
                                     
                                         
-                                            <span class="duration">00:00:00.007</span>
+                                            <span class="duration">00:00:00.010</span>
                                         
                                     
 
