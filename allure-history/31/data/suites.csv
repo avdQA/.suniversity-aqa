@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 15 08:46:46 GMT 2022","Wed Jun 15 08:46:49 GMT 2022","3488","","[#HomePage] Check the GhostDrive homepage","","","","Check Term of Service link",""
+"passed","Wed Jun 15 08:46:49 GMT 2022","Wed Jun 15 08:46:51 GMT 2022","1162","","[#HomePage] Check the GhostDrive homepage","","","","Check Privacy Policy link",""
+"passed","Wed Jun 15 08:46:51 GMT 2022","Wed Jun 15 08:46:52 GMT 2022","1208","","[#HomePage] Check the GhostDrive homepage","","","","Check Cookie Policy link",""
+"passed","Wed Jun 15 08:46:38 GMT 2022","Wed Jun 15 08:46:46 GMT 2022","7733","","[#HomePage] Check the GhostDrive homepage","","","","Check the GhostDrive homepage title",""
