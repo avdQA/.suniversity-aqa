@@ -4,7 +4,7 @@ on:
     branches:
       - test-allure-report
     paths-ignore:
-      - "manualTestsGDWebUI.yml"
+      - ".github/workflows/manualTestsGDWebUI.yml"
 
 jobs:
   cypress-test:
