@@ -1,0 +1,4 @@
+__tmp
+node_modules
+html-report
+cypress-run.log
