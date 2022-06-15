@@ -3,9 +3,9 @@
   "Automated testing of GhostDrive WEB Application"
   =================================================
   STAGE               :: dev,
-  TAGS                :: @smoke and not @ignore,
-  started Tests at    :: 2022-06-15T09:40:39.390Z,
-  ended Tests at      :: 2022-06-15T09:40:54.179Z,
+  TAGS                :: @regression and not @ignore,
+  started Tests at    :: 2022-06-15T09:51:17.774Z,
+  ended Tests at      :: 2022-06-15T09:51:36.194Z,
   OS name             :: linux,
   OS --version        :: Ubuntu - 20.04,
   Browser             :: chrome,
