@@ -11,6 +11,7 @@
 // please read our getting started guide:
 // https://on.cypress.io/introduction-to-cypress
 
+
 describe('example to-do app', () => {
   beforeEach(() => {
     // Cypress starts out with a blank slate for each test
@@ -25,6 +26,15 @@ describe('example to-do app', () => {
     // Then, we use `should` to assert that there are two matched items,
     // which are the two default items.
     cy.get('.todo-list li').should('have.length', 2)
+    // cy.get('.todo-list li').should('have.text', 'Walk the dog');
+
+    // cy.get('.todo-list li').then((elements)=>{
+    //   if(Array.isArray(elements))
+    //   cy.get(elements[0].outerText).should('to.equal', 'Walk the dog')
+    //   expect(elements[0].outerText).to.not.equals("Walk the dog")
+    // })
+    // cy.get('.todo-list li').first().next().should('have.text', 'Walk the dog');
+    // cy.get('.todo-list li').first().next().invoke("text").should('to.equal', 'Walk the dog')
 
     // We can go even further and check that the default todos each contain
     // the correct text. We use the `first` and `last` functions
@@ -33,6 +43,11 @@ describe('example to-do app', () => {
     cy.get('.todo-list li').first().should('have.text', 'Pay electric bill')
     cy.get('.todo-list li').last().should('have.text', 'Walk the dog')
   })
+
+  //===================================================================================
+  //TODO - check width of HTML tag grater than 300px
+  // lesson 16 
+  //===================================================================================
 
   it('can add new todo items', () => {
     // We'll store our item text in a variable so we can reuse it
@@ -141,3 +156,4 @@ describe('example to-do app', () => {
     })
   })
 })
+
