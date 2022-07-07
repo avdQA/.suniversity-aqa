@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/avdQA/.suniversity-aqa/issues"
   },
-  "homepage": "https://github.com/avdQA/.suniversity-aqa#readme"
+  "homepage": "https://github.com/avdQA/.suniversity-aqa#readme",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  }
 }
