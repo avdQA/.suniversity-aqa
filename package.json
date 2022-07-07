@@ -1,0 +1,19 @@
+{
+  "name": "suniversity-aqa",
+  "version": "1.0.0",
+  "description": "I want to be a cool Automation QA Engineer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avdQA/.suniversity-aqa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avdQA/.suniversity-aqa/issues"
+  },
+  "homepage": "https://github.com/avdQA/.suniversity-aqa#readme"
+}
