@@ -47,6 +47,7 @@ describe('example to-do app', () => {
   it('list item width is greater than 300', () => {
     cy.get('.todo-list li').last().invoke('width').should('be.gt', 300);
   })
+
   //===================================================================================
   //TODO - check width of HTML tag grater than 300px
   // lesson 16 
